@@ -1,41 +1,55 @@
 <%# Import the header%>
-<%- include('templates/header'); -%>
+<%- include('../templates/header'); -%>
 <%# /Import the header%>
 
-<section class="writersdetails" id="writerdetails">
-  <div class="container" >
+<section class="writersdetails" id="writersdetails">
       <%# Writers Details %>
-      <h1 ><%= writer.name %></h1><hr>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container" >
+
+          <h1 ><%= writers.name %></h1><hr>
+        </div>
+        </div>
+        <div class="col-lg-6">
+                <a href="./<%= writers.shortname %>">
+                  <img class="w-100 mb-1 " src="/images/writers/<%= writers.shortname %>.jpg" alt="Photo of <%= writers.title %>">
+                </a>
+        </div>
+      </div>
+
+          <div class="container" >
 
             <div class="row">
               <div class="col-sm-3 my-3">
-                <a href="./<%= writer.shortname %>">
-                  <img class="w-100 mb-1 " src="/images/writers/<%= writer.shortname %>.jpg" alt="Photo of <%= writer.title %>">
-                  </a>
+                <a href="./<%= writers.shortname %>">
+                  <img class="w-100 mb-1 " src="/images/writers/<%= writers.shortname %>.jpg" alt="Photo of <%= writers.title %>">
+                </a>
 
               </div>
 
               <div class="col-sm-6 my-3">
-                <p><%- writer.summary %></p>
-                <p><%- writer.description %></p><br />      
+                <p><%- writers.summary %></p>
+                <p><%- writers.description %></p><br />      
 
               </div>
           
               <div class="col-sm-3 my-3">
                 <h3>Recent Stories</h3><hr />
                 <div class="row">
-                <%# Fanart %>
-                <% if (fanart.reverse().length > 0) { %>
-                  <%for (i=0; i < fanart.length; i ++){ %>
+                <%# Stories %>
+                <% if (stories.reverse().length > 0) { %>
+                  <%for (i=0; i < stories.length; i ++){ %>
                       <div class="col-6">
                         <div class="pixgrid clearfix zoom">
-                          <a href="/review/<%= fanart[i] %>#reviewdetails"><img class="w-100" src="/images/fanart/<%= fanart[i] %>_tn.jpg"></a>
+                          <a href="/stories/<%= stories[i] %>"><img class="w-100" src="/images/stories/<%= stories[i] %>_tn.jpg"></a>
                           </div>
                       </div>
   
                   <%}%>
                 <% }  %>
-              <%# /Fanart %>
+              <%# /Stories %>
             </div>
               </div>
         
@@ -48,5 +62,5 @@
 
         
 <%# Import the footer %>
-<%- include('templates/footer'); -%>
+<%- include('../templates/footer'); -%>
 <%# /Import the footer %>
