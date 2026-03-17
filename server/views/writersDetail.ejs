@@ -1,0 +1,52 @@
+<%# Import the header%>
+<%- include('templates/header'); -%>
+<%# /Import the header%>
+
+<section class="writersdetails" id="writerdetails">
+  <div class="container" >
+      <%# Writers Details %>
+      <h1 ><%= writer.name %></h1><hr>
+
+            <div class="row">
+              <div class="col-sm-3 my-3">
+                <a href="./<%= writer.shortname %>">
+                  <img class="w-100 mb-1 " src="/images/writers/<%= writer.shortname %>.jpg" alt="Photo of <%= writer.title %>">
+                  </a>
+
+              </div>
+
+              <div class="col-sm-6 my-3">
+                <p><%- writer.summary %></p>
+                <p><%- writer.description %></p><br />      
+
+              </div>
+          
+              <div class="col-sm-3 my-3">
+                <h3>Recent Stories</h3><hr />
+                <div class="row">
+                <%# Fanart %>
+                <% if (fanart.reverse().length > 0) { %>
+                  <%for (i=0; i < fanart.length; i ++){ %>
+                      <div class="col-6">
+                        <div class="pixgrid clearfix zoom">
+                          <a href="/review/<%= fanart[i] %>#reviewdetails"><img class="w-100" src="/images/fanart/<%= fanart[i] %>_tn.jpg"></a>
+                          </div>
+                      </div>
+  
+                  <%}%>
+                <% }  %>
+              <%# /Fanart %>
+            </div>
+              </div>
+        
+        </div>
+          </section>
+
+
+      <%# /Writers Details %>
+
+
+        
+<%# Import the footer %>
+<%- include('templates/footer'); -%>
+<%# /Import the footer %>

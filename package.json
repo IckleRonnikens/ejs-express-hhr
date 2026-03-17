@@ -1,0 +1,26 @@
+{
+  "name": "harryandhermione",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^3.0.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": "v11.3.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
