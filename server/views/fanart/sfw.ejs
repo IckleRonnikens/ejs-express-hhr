@@ -5,18 +5,18 @@
 <section class="sfw" id="sfw">
   <div class="container">
     <h1>Safe For Work Fanart</h1><hr />
-      <div class="pixgrid clearfix ">
 
       <div class="row"> 
         <%# Sfw List Loop %>
-          <% sfwlist.reverse().forEach(function(item) { %>
+          <% sfwlist.forEach(function(item) { %>
             <div class="col-sm-2 mb-4 ">
-                    <img class="w-100" src="/images/sfw/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
-              </div>
+              <a href="/images/sfw/<%= item.shortname %>.jpg" data-lightbox="<%= item.shortname %>" data-title="<%= item.shortname %>">
+              <img class="w-100" src="/images/sfw/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
+              </a>
+            </div>
               <%  }); %>
               <%# / Sfw List Loop %>
             </div>
-          </div>
     </div>
   </section>
 
