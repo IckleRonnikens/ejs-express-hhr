@@ -3,15 +3,29 @@
 <%# /Import the header%>
 
 <section class="artistsdetails" id="artistdetails">
-  <div class="container" >
       <%# Artists Details %>
-      <h1 ><%= artists.name %></h1><hr>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container" >
+
+          <h1 ><%= artists.name %></h1><hr>
+        </div>
+        </div>
+        <div class="col-lg-6">
+                <a href="./<%= artists.shortname %>">
+                  <img class="w-100 mb-1 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.title %>">
+                </a>
+        </div>
+      </div>
+
+          <div class="container" >
 
             <div class="row">
               <div class="col-sm-3 my-3">
                 <a href="./<%= artists.shortname %>">
                   <img class="w-100 mb-1 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.title %>">
-                  </a>
+                </a>
 
               </div>
 
