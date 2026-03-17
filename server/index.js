@@ -13,12 +13,13 @@ const ArtistsService = require('./services/ArtistsService');
 const BlogService = require('./services/BlogService'); 
 const GamerService = require('./services/GamerService');  
 const FanartService = require('./services/FanartService');  
+const FanfictionService = require('./services/FanfictionService');  
 const FeedbackService = require('./services/FeedbackService');  
 const GotyService = require('./services/GotyService'); 
 const GalleryService = require('./services/GalleryService'); 
 const SfwService = require('./services/SfwService'); 
 const NsfwService = require('./services/NsfwService'); 
-const WriterService = require('./services/WriterService');  
+const WritersService = require('./services/WritersService');  
 
 
 
@@ -32,12 +33,13 @@ const artistsService = new ArtistsService(config.data.artists);
 const blogService = new BlogService(config.data.blog);  
 const gamerService = new GamerService(config.data.gamers);  
 const fanartService = new FanartService(config.data.fanart);  
+const fanfictionService = new FanfictionService(config.data.fanfiction);  
 const feedbackService = new FeedbackService(config.data.feedback);  
 const gotyService = new GotyService(config.data.goty);  
 const galleryService = new GalleryService(config.data.gallery);  
 const sfwService = new SfwService(config.data.sfw);  
 const nsfwService = new NsfwService(config.data.nsfw);  
-const writerService = new WriterService(config.data.writers);  
+const writersService = new WritersService(config.data.writers);  
 
 
 
@@ -71,12 +73,13 @@ app.use('/', routes({
     blogService: blogService,
     gamerService: gamerService,
     fanartService: fanartService,
+    fanfictionService: fanfictionService,
     feedbackService: feedbackService,
     gotyService: gotyService,
     galleryService: galleryService,
     sfwService: sfwService,
     nsfwService: nsfwService,
-    writerService: writerService
+    writersService: writersService
 }));
 
 
