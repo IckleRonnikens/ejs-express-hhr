@@ -11,6 +11,7 @@ module.exports = {
             feedback: path.join(__dirname, 'data/feedback.json'),
             goty: path.join(__dirname, 'data/goty.json'),
             gallery: path.join(__dirname, 'data/gallery.json'),
+            nsfw: path.join(__dirname, 'data/nsfw.json'),
             sfw: path.join(__dirname, 'data/sfw.json'),
             writers: path.join(__dirname, 'data/writers.json')
         }
@@ -27,6 +28,7 @@ module.exports = {
             feedback: path.join(__dirname, 'data/feedback.json'),
             goty: path.join(__dirname, 'data/goty.json'),
             gallery: path.join(__dirname, 'data/gallery.json'),
+            nsfw: path.join(__dirname, 'data/nsfw.json'),
             sfw: path.join(__dirname, 'data/sfw.json'),
             writers: path.join(__dirname, 'data/writers.json')
         }

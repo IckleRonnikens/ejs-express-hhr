@@ -1,0 +1,25 @@
+<%#Import the header%>
+<%- include('../templates/header'); -%>
+<%#/Import the header%>
+
+<section class="nsfw" id="nsfw">
+  <div class="container">
+    <h1>Not Safe For Work Fanart</h1><hr />
+
+      <div class="row"> 
+        <%# Nsfw List Loop %>
+          <% nsfwlist.forEach(function(item) { %>
+            <div class="col-sm-2 mb-4 ">
+              <a href="/images/nsfw/<%= item.shortname %>.jpg" data-lightbox="<%= item.shortname %>" data-title="<%= item.shortname %>">
+              <img class="w-100" src="/images/nsfw/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
+              </a>
+            </div>
+              <%  }); %>
+              <%# / Nsfw List Loop %>
+            </div>
+    </div>
+  </section>
+
+<%#Import the footer%>
+<%- include('../templates/footer'); -%>
+<%#/Import the footer%>

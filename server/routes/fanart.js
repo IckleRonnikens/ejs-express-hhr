@@ -6,6 +6,8 @@ module.exports = (param) => {
     const { fanartService } = param; 
     const { artistsService } = param; 
     const { sfwService } = param; 
+    const { nsfwService } = param; 
+
 
     router.get('/', async(req, res, next) => {
 
@@ -55,9 +57,15 @@ module.exports = (param) => {
 
     });
 
+    router.get('/nsfw', async(req, res, next) => {
+
+
+        const nsfwlist = await nsfwService.getList();
+        const allScreenshot = await nsfwService.getAllScreenshot();
+        return res.render('fanart/nsfw', {page: 'NSFW', nsfwlist, screenshot: allScreenshot});
+
+    });
  
-
-
 
 
     return router; 

@@ -17,6 +17,7 @@ const FeedbackService = require('./services/FeedbackService');
 const GotyService = require('./services/GotyService'); 
 const GalleryService = require('./services/GalleryService'); 
 const SfwService = require('./services/SfwService'); 
+const NsfwService = require('./services/NsfwService'); 
 const WriterService = require('./services/WriterService');  
 
 
@@ -35,6 +36,7 @@ const feedbackService = new FeedbackService(config.data.feedback);
 const gotyService = new GotyService(config.data.goty);  
 const galleryService = new GalleryService(config.data.gallery);  
 const sfwService = new SfwService(config.data.sfw);  
+const nsfwService = new NsfwService(config.data.nsfw);  
 const writerService = new WriterService(config.data.writers);  
 
 
@@ -73,6 +75,7 @@ app.use('/', routes({
     gotyService: gotyService,
     galleryService: galleryService,
     sfwService: sfwService,
+    nsfwService: nsfwService,
     writerService: writerService
 }));
 
