@@ -54,7 +54,61 @@
 
 
 
-  <%#List of Gamers%>
+  <%#List of writers%>
+  <section class="writers  clearfix" id="writers">
+    <div class="container">
+      <h1>writers</h1> <hr />
+      <div class="row">
+      <%# writers List Loop %>
+        <% writerslist.splice(0, 8).forEach(function(item) { %>
+        <div class="col-sm-3 text-center my-3">
+          <h3><%= item.title %></h3>
+          <h5> AKA
+            <a href="/writers/<%= item.shortname %>#gamerdetails"><%= item.name %></a>
+          </h5>
+          <p>
+            <a href="/writers/<%= item.shortname %>#gamerdetails">
+              <img class="w-100 " src="./images/writers/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
+            </a>
+            </a>
+            </a>
+          </p>
+        </div>
+        <%  }); %>
+      <%# /writers List Loop %>
+      </div>
+    </div>
+  </section>
+  <%#/List of writers%>
+
+    <%#List of artists%>
+  <section class="artists  clearfix" id="artists">
+    <div class="container">
+      <h1>artists</h1> <hr />
+      <div class="row">
+      <%# artists List Loop %>
+        <% artistslist.splice(0, 8).forEach(function(item) { %>
+        <div class="col-sm-3 text-center my-3">
+          <h3><%= item.title %></h3>
+          <h5> AKA
+            <a href="/artists/<%= item.shortname %>#gamerdetails"><%= item.name %></a>
+          </h5>
+          <p>
+            <a href="/artists/<%= item.shortname %>#gamerdetails">
+              <img class="w-100 " src="./images/artists/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
+            </a>
+            </a>
+            </a>
+          </p>
+        </div>
+        <%  }); %>
+      <%# /artists List Loop %>
+      </div>
+    </div>
+  </section>
+  <%#/List of artists%>
+
+    <%#List of Gamers%>
   <section class="gamers  clearfix" id="gamers">
     <div class="container">
       <h1>Gamers</h1> <hr />

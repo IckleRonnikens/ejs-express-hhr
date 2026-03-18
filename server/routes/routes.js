@@ -8,6 +8,8 @@ const feedbackRoutes = require('./feedback');
 const galleryRoutes = require('./gallery');
 const gamersRoutes = require('./gamers'); 
 const gotyRoutes = require('./goty');
+const privacyRoutes = require('./privacy');
+const quotesRoutes = require('./quotes');
 
 
 
@@ -16,12 +18,16 @@ const router = express.Router();
 module.exports = (param) => {
 
     const { gamerService } = param; 
+    const { writersService } = param; 
+    const { artistsService } = param; 
 
 
     router.get('/', async(req, res, next) => {
 
         const gamerslist = await gamerService.getListShort();
-        return res.render('index', {page: 'Home', gamerslist});
+        const writerslist = await writersService.getListShort();
+        const artistslist = await artistsService.getListShort();
+        return res.render('index', {page: 'Home', gamerslist, writerslist, artistslist});
         
     });
 
@@ -33,6 +39,8 @@ module.exports = (param) => {
     router.use('/blog', blogRoutes(param));
     router.use('/goty', gotyRoutes(param));
     router.use('/gallery', galleryRoutes(param));
+    router.use('/privacy', privacyRoutes(param));
+    router.use('/quotes', quotesRoutes(param));
 
 
 
