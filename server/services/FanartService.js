@@ -21,3 +21,4 @@ class FanartService {
 }
 
 module.exports = FanartService;
+
