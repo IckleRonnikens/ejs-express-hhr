@@ -7,7 +7,7 @@ const fanfictionRoutes = require('./fanfiction');
 const feedbackRoutes = require('./feedback');
 const galleryRoutes = require('./gallery');
 const gamersRoutes = require('./gamers'); 
-const gotyRoutes = require('./goty');
+const projectsRoutes = require('./projects');
 const privacyRoutes = require('./privacy');
 const quotesRoutes = require('./quotes');
 
@@ -37,7 +37,7 @@ module.exports = (param) => {
     router.use('/fanfiction', fanfictionRoutes(param));
     router.use('/feedback', feedbackRoutes(param));
     router.use('/blog', blogRoutes(param));
-    router.use('/goty', gotyRoutes(param));
+    router.use('/projects', projectsRoutes(param));
     router.use('/gallery', galleryRoutes(param));
     router.use('/privacy', privacyRoutes(param));
     router.use('/quotes', quotesRoutes(param));

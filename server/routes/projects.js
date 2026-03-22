@@ -3,14 +3,11 @@ const router = express.Router();
 
 module.exports = (param) => {
 
-    const { gamerService } = param; 
-    const { gotyService } = param;
+    const { projectsService } = param;
 
     router.get('/', async(req, res, next) => {
-        const gamerslist = await gamerService.getList();
-        const gotylist = await gotyService.getList();
-        const allFanart = await gamerService.getAllFanart();
-        return res.render('goty', {page: 'Game of the Year', gamerslist, gotylist, fanart: allFanart});
+        const projectslist = await projectsService.getList();
+        return res.render('projects', {page: 'Projects', projectslist});
 
     });
 
@@ -18,17 +15,16 @@ module.exports = (param) => {
 
         try {
             const promises = []; 
-            promises.push(gotyService.getGotyDetail(req.params.name)); 
+            promises.push(projectsService.getProjectsDetail(req.params.name)); 
             const result = await Promise.all(promises) 
             console.log(result[0])
             if(!result[0]){
                 return next();
             }
 
-            return res.render('gotyDetail', {
+            return res.render('projectsDetail', {
                 page: req.params.name, 
-                gotyDetail: result[0],
-                fanart: result[1],
+                projectsDetail: result[0],
             });
         }catch (err){
             return next(err);

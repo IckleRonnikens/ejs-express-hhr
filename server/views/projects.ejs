@@ -1,0 +1,48 @@
+<%#Import the header%>
+<%- include('templates/header'); -%>
+<%#/Import the header%>
+
+<section class="featured-projects" id="featured">
+  <div class="container">
+      <h1>Featured Game of the Year</h1><hr />
+      <%# Projects List Loop %>
+      <% projectslist.forEach(function(projects) { %>
+
+  <div class="row">
+
+    <div class="col-lg-6">
+        <a href="/projects/<%= projects.shortname %>">
+          <img class="w-100" src="<%= projects.image %>" alt="Photo of <%= projects.shortname %>">
+        </a>
+    </div>
+
+      <div class="col-lg-6">
+
+        <h2><%= projects.title %></h2>
+        <div class="meta-data mb-3">
+          <a class="btn btn-light btn-sm text-uppercase text-dark" href="/gamers/<%= projects.name %>#gamerdetails"><%= projects.shortname %></a>
+          <a class="btn btn-light btn-sm text-uppercase text-dark">projectss</a>
+          <a class="btn btn-light btn-sm text-uppercase text-dark"><%= projects.releasedate %></a>
+        </div>
+
+        <p><%- projects.summary %></p>
+
+          <a href="/projects/<%= projects.shortname %>"><button class="btn btn-light btn-lg">Read More</button></a>
+        
+      </div>
+
+    </div><hr />
+      <%  }); %>
+      <%# / Projects List Loop %>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+<%#Import the footer%>
+<%- include('templates/footer'); -%>
+<%#/Import the footer%>
