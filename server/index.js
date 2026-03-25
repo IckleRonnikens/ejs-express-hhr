@@ -11,6 +11,7 @@ const configs = require('./config');
 const AboutService = require('./services/AboutService');  
 const ArtistsService = require('./services/ArtistsService');  
 const BlogService = require('./services/BlogService'); 
+const CreditsService = require('./services/CreditsService'); 
 const GamerService = require('./services/GamerService');  
 const FanartService = require('./services/FanartService');  
 const FanfictionService = require('./services/FanfictionService');  
@@ -35,6 +36,7 @@ const PORT = process.env.PORT || 3000;
 const aboutService = new AboutService(config.data.about);  
 const artistsService = new ArtistsService(config.data.artists);  
 const blogService = new BlogService(config.data.blog);  
+const creditsService = new CreditsService(config.data.credits);  
 const gamerService = new GamerService(config.data.gamers);  
 const fanartService = new FanartService(config.data.fanart);  
 const fanfictionService = new FanfictionService(config.data.fanfiction);  
@@ -79,6 +81,7 @@ app.use('/', routes({
     aboutService: aboutService,
     artistsService: artistsService,
     blogService: blogService,
+    creditsService: creditsService,
     gamerService: gamerService,
     fanartService: fanartService,
     fanfictionService: fanfictionService,

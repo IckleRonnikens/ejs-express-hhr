@@ -2,6 +2,7 @@
 const express = require('express'); 
 const aboutRoutes = require('./about'); 
 const blogRoutes = require('./blog');
+const creditsRoutes = require('./credits');
 const fanartRoutes = require('./fanart');
 const fanfictionRoutes = require('./fanfiction');
 const feedbackRoutes = require('./feedback');
@@ -32,6 +33,7 @@ module.exports = (param) => {
     });
 
     router.use('/about', aboutRoutes(param));
+    router.use('/credits', creditsRoutes(param));
     router.use('/gamers', gamersRoutes(param));
     router.use('/fanart', fanartRoutes(param));
     router.use('/fanfiction', fanfictionRoutes(param));

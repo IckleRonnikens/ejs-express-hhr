@@ -2,21 +2,20 @@
   "blogs": [
 {
   "title": "Day One",
-  "name": "Arthur_Morgan",
-  "image": "../images/fanart/fallout-4.jpg",
+  "image": "../images/blog/yeh-a-wizard.jpg",
   "genre": "RPG",
   "developer": "Bethesda Game Studios",
   "publisher": "Bethesda Game Studios",
   "releasedate": "November 10, 2015",
   "rating": "80",
   "shortname": "fallout-4",
-  "summary": "<p>In the post-apocalyptic Boston, Massachusetts area, you play as the 'Sole Survior' of Vault 111, recently revived from centuries of forced cryostasis, determined to find your kidnapped son.</p> ",
+  "summary": "<p>Yeh a wizard, Arry! Or whatever your name is... welcome, to your first adventure here to the site...</p> ",
   "description": "<p>If there was only one positive I could say about Fallout 4, is that for the worst game in the franchise, it is still damn fun.</p> <p>Bethesda might have perfected the old video game addage that 'fifteen minutes of fun = success', but there were so many things about Fallout 4 that didn't feel like a Fallout game. Right off the bat, the integration of settlements into the game, ruined the experience very early on. Try as I might those first few times, it felt like a settlement always needed saving right when I was in the middle of killing things.</p> <p>That was the other let down. Creatures that I had once feared and had nightmares about in previous Fallout games, such as Behemoth's and Deathclaw's, were strangely very easy to defeat. And then, I managed to find myself Power Armour, and I literally became too over powered, and that was very early on in the game.</p> <p>My enjoyment skyrocketed, however, upon the discovery of an upgraded Combat Shotgun and then the Railway Rifle. These guns both teared through enemies, so satisfyingly, I'm not even ashamed to say that they were the reason why I went on to finish Fallout 4.</p> <p>It wasn't the sequel to Fallout 3 that I wanted, but Fallout 4 was for the most part fun, which is all you can ask for in a video game.</p>"
 },
 {
   "title" : "Transformers: Fall of Cybertron",
   "name": "Clayton_Carmine",
-  "image": "../images/fanart/transformers-foc.jpg",
+  "image": "../images/blog/transformers-foc.jpg",
   "genre": "Third-Person-Shooter",
   "developer": "High Moon Studios/Fun Labs",
   "publisher": "Activision",
@@ -29,7 +28,7 @@
 {
   "title": "LA Noire",
   "name": "Clayton_Carmine",
-  "image": "../images/fanart/la-noire.jpg",
+  "image": "../images/blog/la-noire.jpg",
   "genre": "Action-Adventure",
   "developer": "Team Bondi",
   "publisher": "Rockstar Games",
@@ -42,7 +41,7 @@
 {
   "title": "Burnout Paradise Remastered",
   "name": "Arthur_Morgan",
-  "image": "../images/fanart/burnout-paradise-remastered.jpg",
+  "image": "../images/blog/burnout-paradise-remastered.jpg",
   "genre": "Racing Game",
   "developer": "Criterion",
   "publisher": "EA Games",
@@ -55,7 +54,7 @@
 {
   "title": "God of War",
   "name": "Connor_Arkay",
-  "image": "../images/fanart/god-of-war.jpg",
+  "image": "../images/blog/god-of-war.jpg",
   "genre": "Action-Adventure",
   "developer": "SIE Santa Monica Studio",
   "publisher": "Sony",
@@ -68,7 +67,7 @@
 {
   "title": "Detroit Become Human",
   "name": "Connor_Arkay",
-  "image": "../images/fanart/detroit-become-human.jpg",
+  "image": "../images/blog/detroit-become-human.jpg",
   "genre": "Adventure Game",
   "developer": "Quantic Dream",
   "publisher": "Sony",
@@ -81,7 +80,7 @@
 {
   "title": "Assassin's Creed Odyssey",
   "name": "John_Shepard",
-  "image": "../images/fanart/assassins-creed-odyssey.jpg",
+  "image": "../images/blog/assassins-creed-odyssey.jpg",
   "genre": "Action RPG",
   "developer": "Ubisoft Montreal",
   "publisher": "Ubisoft",
@@ -94,7 +93,7 @@
 {
   "title": "Kingdom Hearts III",
   "name": "John_Shepard",
-  "image": "../images/fanart/kingdom-hearts-3.jpg",
+  "image": "../images/blog/kingdom-hearts-3.jpg",
   "genre": "Action RPG",
   "developer": "Square Enix",
   "publisher": "Square Enix",
@@ -107,7 +106,7 @@
 {
   "title": "Days Gone",
   "name": "Connor_Arkay",
-  "image": "../images/fanart/days-gone.jpg",
+  "image": "../images/blog/days-gone.jpg",
   "genre": ["Action-Aventure",  "Survival-Horror"],
   "developer": "SIE Bend Studio",
   "publisher": "Sony",
@@ -120,7 +119,7 @@
 {
   "title": "Final Fantasy X Remastered",
   "name": "John_Shepard",
-  "image": "../images/fanart/final-fantasy-x-remastered.jpg",
+  "image": "../images/blog/final-fantasy-x-remastered.jpg",
   "genre": "RPG",
   "developer": "Square Enix",
   "publisher": "Sony",
@@ -133,7 +132,7 @@
 {
   "title": "Creature In The Well",
   "name": "Clayton_Carmine",
-  "image": "../images/fanart/creature-in-the-well.jpg",
+  "image": "../images/blog/creature-in-the-well.jpg",
   "genre": "Pinball-Style Dungeon-Crawler",
   "developer": "Flight School Studio",
   "publisher": "Flight School Studio",
@@ -146,7 +145,7 @@
 {
   "title": "Greedfall",
   "name": "Clayton_Carmine",
-  "image": "../images/fanart/greedfall.jpg",
+  "image": "../images/blog/greedfall.jpg",
   "genre": "Action-RPG",
   "developer": "Spiders",
   "publisher": "Focus Home Interactive",
@@ -159,7 +158,7 @@
 {
   "title" : "Indivisible",
   "name": "John_Shepard",
-  "image": "../images/fanart/indivisible.jpg",
+  "image": "../images/blog/indivisible.jpg",
   "genre": "RPG",
   "developer": "Lab Zero Games",
   "publisher": "505 Games",
@@ -172,7 +171,7 @@
 {
   "title" : "The Outer Worlds",
   "name": "Arthur_Morgan",
-  "image": "../images/fanart/the-outer-worlds.jpg",
+  "image": "../images/blog/the-outer-worlds.jpg",
   "genre": "RPG",
   "developer": "Obsidian Entertainment",
   "publisher": "Private Division",
@@ -185,7 +184,7 @@
 {
   "title" : "Star Wars Jedi: Fallen Order",
   "name": "Connor_Arkay",
-  "image": "../images/fanart/star-wars-jedi-fallen-order.jpg",
+  "image": "../images/blog/star-wars-jedi-fallen-order.jpg",
   "genre": "Action-Adventure",
   "developer": "Respawn Entertainment",
   "publisher": "Electronic Arts",
@@ -198,7 +197,7 @@
 {
   "title": "Ori and the Will of the Wisps",
   "name": "Arthur_Morgan",
-  "image": "../images/fanart/ori-and-the-will-of-the-wisps.jpg",
+  "image": "../images/blog/ori-and-the-will-of-the-wisps.jpg",
   "genre": "Platform-Adventure",
   "developer": "Moon Studios",
   "publisher": "Xbox Game Studios",
