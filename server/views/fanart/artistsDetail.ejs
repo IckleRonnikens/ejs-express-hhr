@@ -2,38 +2,32 @@
 <%- include('../templates/header'); -%>
 <%# /Import the header%>
 
-<section class="artistsdetails" id="artistdetails">
-      <%# Artists Details %>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="container" >
-
-          <h1 ><%= artists.name %></h1><hr>
-        </div>
-        </div>
-        <div class="col-lg-6">
-                <a href="./<%= artists.shortname %>">
-                  <img class="w-100 mb-1 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.title %>">
-                </a>
+<section class="artists-details">
+<%# Artists Details %>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/images/artists/<%= artists.shortname %>.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo of <%= artists.title %>" width="700" height="500" loading="lazy">
+      </div>
+      
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-white lh-1 mb-3"><%= artists.name %></h1>
+        <p class="lead"><%- artists.description %></p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
-          <div class="container" >
+<div class="b-example-divider"></div>
 
-            <div class="row">
-              <div class="col-sm-3 my-3">
-                <a href="./<%= artists.shortname %>">
-                  <img class="w-100 mb-1 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.title %>">
-                </a>
 
-              </div>
 
-              <div class="col-sm-6 my-3">
                 <p><%- artists.summary %></p>
-                <p><%- artists.description %></p><br />      
-
-              </div>
           
               <div class="col-sm-3 my-3">
                 <h3>Recent Stories</h3><hr />
@@ -59,15 +53,15 @@
 
 <section class="gallery" id="gallery">
   <div class="container">
-    <h1>Gallery</h1><hr />
+    <h1>Artwork</h1><hr />
 
       <div class="row"> 
                 <%# Fanart %>
                 <% if (fanart.reverse().length > 0) { %>
                   <%for (i=0; i < fanart.length; i ++){ %>
             <div class="col-sm-2 mb-4 ">
-              <a href="/gallery/<%= fanart[i] %>">
-                    <img class="w-100" src="/images/fanart/<%= fanart[i] %>.jpg" alt="Photo of <%= fanart[i] %>">
+              <a href="/images/fanart/<%= artists.shortname %>/<%= fanart[i] %>.jpg" data-lightbox="<%= artists.shortname %>" data-title="<%= artists.shortname %>">
+                    <img class="w-100" src="/images/fanart/<%= artists.shortname %>/<%= fanart[i] %>.jpg" alt="Photo of <%= fanart[i] %>" >
                 </a>
               </div>
                   <%}%>
