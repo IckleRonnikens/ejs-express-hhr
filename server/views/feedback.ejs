@@ -6,24 +6,27 @@
   <div class="container" >
     <div class="row">
       <div class="col-sm-12">
-        <h1 >Send us feedback</h1><hr />
+        <h1 >Send Feedback</h1><hr />
         <%# Feedback Form %>
           <form class="feedback-form" action="/feedback" method="POST">
             <div class="form-group">
-              <label for="feedback-form-name">Name</label>
+              <label for="feedback-form-name">Name</label><hr>
               <input class="form-control" id="feedback-form-name" type="text" placeholder="Enter your name" name="fbName">
             </div>
+            <br>
             <div class="form-group">
-              <label for="feedback-form-title">Title</label>
+              <label for="feedback-form-title">Title</label><hr>
               <input class="form-control" id="feedback-form-title" type="text" placeholder="Title of your feedback" name="fbTitle">
             </div>
+            <br>
             <div class="form-group">
-              <label for="feedback-form-message">Message</label>
+              <label for="feedback-form-message">Message</label><hr>
               <textarea class="form-control" id="feedback-form-message" type="text" placeholder="Enter your message, then hit the submit" rows="6" name="fbMessage"></textarea>
             </div>
+            <br>
             <button class="btn btn-dark" type="submit">Submit</button>
             <button class="btn btn-danger" type="submit">Clear</button>
-            <button class="btn btn-light"><a href="/feedback#subfeedback">Read Feedback</a></button>
+            <button class="btn btn-primary"><a href="/feedback#subfeedback">Read Feedback</a></button>
 
           </form>
         <%# /Feedback Form %>
