@@ -21,6 +21,8 @@ const PrivacyService = require('./services/PrivacyService');
 const QuotesService = require('./services/QuotesService'); 
 const SfwService = require('./services/SfwService'); 
 const NsfwService = require('./services/NsfwService'); 
+const PubliclistService = require('./services/PubliclistService'); 
+const ArchivesService = require('./services/ArchivesService'); 
 const WritersService = require('./services/WritersService');  
 
 
@@ -43,6 +45,8 @@ const privacyService = new PrivacyService(config.data.privacy);
 const quotesService = new QuotesService(config.data.quotes);  
 const sfwService = new SfwService(config.data.sfw);  
 const nsfwService = new NsfwService(config.data.nsfw);  
+const publiclistService = new PubliclistService(config.data.publiclist);  
+const archivesService = new ArchivesService(config.data.archives);  
 const writersService = new WritersService(config.data.writers);  
 
 
@@ -85,6 +89,8 @@ app.use('/', routes({
     quotesService: quotesService,
     sfwService: sfwService,
     nsfwService: nsfwService,
+    publiclistService: publiclistService,
+    archivesService: archivesService,
     writersService: writersService
 }));
 

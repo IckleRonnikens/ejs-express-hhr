@@ -6,7 +6,7 @@ module.exports = (param) => {
     const { fanfictionService } = param; 
     const { writersService } = param; 
     const { archivesService } = param; 
-    const { publicService } = param; 
+    const { publiclistService } = param; 
 
 
     router.get('/', async(req, res, next) => {
@@ -48,21 +48,21 @@ module.exports = (param) => {
         
     });
 
-    router.get('/sfw', async(req, res, next) => {
+    router.get('/archives', async(req, res, next) => {
 
 
-        const sfwlist = await sfwService.getList();
-        const allScreenshot = await sfwService.getAllScreenshot();
-        return res.render('fanart/sfw', {page: 'SFW', sfwlist, screenshot: allScreenshot});
+        const archiveslist = await archivesService.getList();
+        const allScreenshot = await archivesService.getAllScreenshot();
+        return res.render('fanfiction/archives', {page: 'Archives', archiveslist, screenshot: allScreenshot});
 
     });
 
-    router.get('/nsfw', async(req, res, next) => {
+    router.get('/publiclist', async(req, res, next) => {
 
 
-        const nsfwlist = await nsfwService.getList();
-        const allScreenshot = await nsfwService.getAllScreenshot();
-        return res.render('fanart/nsfw', {page: 'NSFW', nsfwlist, screenshot: allScreenshot});
+        const publiclistlist = await publiclistService.getList();
+        const allScreenshot = await publiclistService.getAllScreenshot();
+        return res.render('fanfiction/publiclist', {page: 'Publiclist', publiclistlist, screenshot: allScreenshot});
 
     });
  

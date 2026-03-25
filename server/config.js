@@ -15,6 +15,8 @@ module.exports = {
             artists: path.join(__dirname, 'data/artists.json'),
             nsfw: path.join(__dirname, 'data/nsfw.json'),
             sfw: path.join(__dirname, 'data/sfw.json'),
+            publiclist: path.join(__dirname, 'data/publiclist.json'),
+            archives: path.join(__dirname, 'data/archives.json'),
             fanfiction: path.join(__dirname, 'data/fanfiction.json'),
             writers: path.join(__dirname, 'data/writers.json')
         }
@@ -32,6 +34,8 @@ module.exports = {
             artists: path.join(__dirname, 'data/artists.json'),
             nsfw: path.join(__dirname, 'data/nsfw.json'),
             sfw: path.join(__dirname, 'data/sfw.json'),
+            publiclist: path.join(__dirname, 'data/publiclist.json'),
+            archives: path.join(__dirname, 'data/archives.json'),
             fanfiction: path.join(__dirname, 'data/fanfiction.json'),
             writers: path.join(__dirname, 'data/writers.json'),
             feedback: path.join(__dirname, 'data/feedback.json'),
