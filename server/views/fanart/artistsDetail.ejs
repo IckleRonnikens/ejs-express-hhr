@@ -46,8 +46,7 @@
                           <a href="/review/<%= fanart[i] %>"><img class="w-100" src="/images/fanart/<%= fanart[i] %>_tn.jpg"></a>
                           </div>
                       </div>
-  
-                  <%}%>
+                    <%}%>
                 <% }  %>
               <%# /Fanart %>
             </div>
@@ -57,10 +56,29 @@
           </section>
 
 
+
+<section class="gallery" id="gallery">
+  <div class="container">
+    <h1>Gallery</h1><hr />
+
+      <div class="row"> 
+                <%# Fanart %>
+                <% if (fanart.reverse().length > 0) { %>
+                  <%for (i=0; i < fanart.length; i ++){ %>
+            <div class="col-sm-2 mb-4 ">
+              <a href="/gallery/<%= fanart[i] %>">
+                    <img class="w-100" src="/images/fanart/<%= fanart[i] %>.jpg" alt="Photo of <%= fanart[i] %>">
+                </a>
+              </div>
+                  <%}%>
+                <% }  %>
+              <%# /Fanart %>
+            </div>
+    </div>
+  </section>
+        
       <%# /Artists Details %>
 
-
-        
 <%# Import the footer %>
 <%- include('../templates/footer'); -%>
 <%# /Import the footer %>
