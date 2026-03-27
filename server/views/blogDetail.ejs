@@ -2,6 +2,85 @@
 <%- include('templates/header'); -%>
 <%# /Import the header%>
 
+
+<%# Gamers Detail %>
+<section class="blog">
+<div class="blog-container">
+  <div class="blog-masthead">
+    <h1>Blog Post</h1>
+    <time>Issue 04 — Winter 2026</time>
+  </div>
+
+  <section class="blog-hero">
+    <div>
+      <h2><%= blogDetail.title %></h2>
+      <p class="blog-hero-text">How negative space shapes modern design philosophy and influences contemporary creative practice</p>
+    </div>
+    <div class="blog-hero-meta">
+      <p>By Eleanor Chen</p>
+      <p>Photography by Marcus Webb</p>
+    </div>
+  </section>
+
+  <section class="blog-featured">
+    <div class="blog-image-placeholder">
+      <img class="w-100 " src="<%= blogDetail.image %>" alt="<%= blogDetail.name %>">
+    </div>
+    <p class="blog-caption">Figure 01 — Spatial composition study, 2025</p>
+  </section>
+
+  <section class="blog-body-content">
+    <div class="blog-section-label">Introduction</div>
+    <div class="blog-body-text">
+      <p>In the pursuit of visual clarity, what we choose to omit becomes as crucial as what we include. This fundamental principle guides contemporary design thinking.</p>
+      <p>The intentional use of empty space - what designers call negative space or white space—creates rhythm, hierarchy, and breathing room within compositions. It allows elements to exist without competing for attention, establishing a visual language that speaks through restraint rather than abundance.</p>
+      <p>Throughout history, masters of various disciplines have understood this principle. Japanese aesthetics celebrate ma, the meaningful void. Minimalist composers explore silence as counterpoint to sound. Architects design with light and air as tangible materials.</p>
+    </div>
+  </section>
+
+  <section class="blog-quote-section">
+    <blockquote>
+      "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."
+    </blockquote>
+    <p class="blog-quote-attribution">— Antoine de Saint-Exupéry</p>
+  </section>
+
+  <section class="blog-two-column">
+    <div class="blog-section-label">Practice</div>
+    <div class="blog-columns">
+      <div class="blog-column-text">
+        <p>Implementing these principles requires discipline and confidence. The designer must resist the urge to fill every available space, trusting that emptiness serves a purpose beyond mere aesthetics.</p>
+        <p>Consider the page spread: generous margins frame the content, line spacing allows text to breathe, paragraph breaks create natural pauses. Each decision about spacing influences how readers engage with information.</p>
+      </div>
+      <div class="blog-column-text">
+        <p>Digital interfaces present unique challenges. Screen real estate feels precious, stakeholders request more features, analytics drive density. Yet the most successful platforms maintain spatial generosity.</p>
+        <p>The lesson remains consistent across media: clarity emerges from selective focus, enhanced by the strategic use of nothing at all.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-image-grid">
+    <div class="blog-grid-image">
+      <img src="https://assets.codepen.io/406785/augustine-wong-oebTM5wHTfw-unsplash.jpg" alt="Grid image 1">
+    </div>
+    <div class="blog-grid-image">
+      <img src="https://assets.codepen.io/406785/h-co-3oOR7B2inwc-unsplash.jpg" alt="Grid image 2">
+    </div>
+    <div class="blog-grid-image">
+      <img src="https://assets.codepen.io/406785/bharath-kumar-rqIyJozwdTc-unsplash.jpg" alt="Grid image 3">
+    </div>
+  </section>
+
+  <div class="blog-footer">
+    <p>Continue reading in Issue 05</p>
+    <p>thequarterly.com</p>
+  </div>
+</div>
+</section>
+<%# /Gamers Detail %>
+
+
+<!-- 
 <section class="blog-details" id="blogdetails">
   <div class="container">
 <%# Gamers Detail %>
@@ -119,7 +198,7 @@
 
 </section>
 
-<%# /Gamers Detail %>
+<%# /Gamers Detail %> -->
 
 
 
