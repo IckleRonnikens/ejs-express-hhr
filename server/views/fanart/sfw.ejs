@@ -4,16 +4,21 @@
 
 <section class="sfw" id="sfw">
   <div class="container">
-    <h1>Safe For Work Fanart</h1><hr />
+  <div class="fanart-masthead">
+    <h1>Safe For Work</h1>
+    <time>Updated — Winter 2026</time>
+  </div>
 
-      <div class="row"> 
+      <div class="fanart-image-grid"> 
         <%# Sfw List Loop %>
           <% sfwlist.forEach(function(item) { %>
-            <div class="col-sm-2 mb-4 ">
+        <div class="fanart-grid-image">
+
               <a href="/images/sfw/<%= item.shortname %>.jpg" data-lightbox="<%= item.shortname %>" data-title="<%= item.shortname %>">
               <img class="w-100" src="/images/sfw/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
               </a>
             </div>
+
               <%  }); %>
               <%# / Sfw List Loop %>
             </div>

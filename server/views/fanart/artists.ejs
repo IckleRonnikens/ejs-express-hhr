@@ -4,25 +4,28 @@
 
 <section class="artists" id="allartists">
   <div class="container">
-    <h1>Artists</h1><hr />
-            <div class="row">
+    <div class="home-masthead">
+    <h1>Artists</h1>
+    <time>Updated — Winter 2026</time>
+  </div>
 
-              <%# Artists List Loop %>
-              <% artistslist.forEach(function(artists) { %>
+      <section class="fanart-image-grid">
 
-              <div class="col-sm-3 text-center my-3">
+        <%# Artists List Loop %>
+        <% artistslist.forEach(function(artists) { %>
+        <div class="fanart-grid-image">
+        
                 <a href="/fanart/artists/<%= artists.shortname %>">
                   <img class="w-100 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.shortname %>">
                 </a>
+
                 <h3><a href="/artists/<%= artists.shortname %>"><%= artists.name %></a></h3>
                 <a href="/fanart/artists/<%= artists.shortname %>"><button class="btn btn-light">View Profile</button></a>
-
-              </div>
-
-
-              <%  }); %>
-              <%# / Artists List Loop %>
-            </div><hr />
+        
+        </div>
+        <%  }); %>
+        <%# / Artists List Loop %>
+      </section>
 
   </div>
 </section>

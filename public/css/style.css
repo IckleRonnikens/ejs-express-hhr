@@ -361,7 +361,7 @@ blockquote {
 }
 
 .home-grid-image {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1 / 1;
   background: linear-gradient(180deg, #e5e5e5 0%, #f5f5f5 100%);
   overflow: hidden;
 }
@@ -371,7 +371,6 @@ blockquote {
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(100%) contrast(0.85) brightness(1.1);
 }
 
 .home-grid-image:nth-child(2) {

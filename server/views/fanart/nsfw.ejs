@@ -4,16 +4,21 @@
 
 <section class="nsfw" id="nsfw">
   <div class="container">
-    <h1>Not Safe For Work Fanart</h1><hr />
+  <div class="fanart-masthead">
+    <h1>Not Safe For Work</h1>
+    <time>Updated — Winter 2026</time>
+  </div>
 
-      <div class="row"> 
+      <div class="fanart-image-grid"> 
         <%# Nsfw List Loop %>
           <% nsfwlist.forEach(function(item) { %>
-            <div class="col-sm-2 mb-4 ">
+        <div class="fanart-grid-image">
+
               <a href="/images/nsfw/<%= item.shortname %>.jpg" data-lightbox="<%= item.shortname %>" data-title="<%= item.shortname %>">
-              <img class="w-100" src="/images/nsfw/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
+              <img class="w-100" src="/images/sfw/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
               </a>
             </div>
+
               <%  }); %>
               <%# / Nsfw List Loop %>
             </div>
