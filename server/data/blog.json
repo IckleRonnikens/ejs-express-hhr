@@ -1,8 +1,19 @@
 {
   "blogs": [
 {
+  "title": "Day Zero",
+  "image": "../images/blog/day-zero.jpg",
+  "date": "August 25, 2025",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "day-zero",
+  "summary": "Yeh a wizard, Arry! Or whatever your name is... welcome, to your first adventure here to the site... ",
+  "introduction": "<p>If there was only one thing I could experience again for the first time, it would be to watch that first Harry Potter film, discovering there were already four books released, and going on the adventure into Hogwarts for the first time.</p> <p> that for the worst game in the franchise, it is still damn fun. Bethesda might have perfected the old video game addage that 'fifteen minutes of fun = success', but there were so many things about Fallout 4 that didn't feel like a Fallout game. Right off the bat, the integration of settlements into the game, ruined the experience very early on. Try as I might those first few times, it felt like a settlement always needed saving right when I was in the middle of killing things. That was the other let down. Creatures that I had once feared and had nightmares about in previous Fallout games, such as Behemoth's and Deathclaw's, were strangely very easy to defeat. And then, I managed to find myself Power Armour, and I literally became too over powered, and that was very early on in the game. My enjoyment skyrocketed, however, upon the discovery of an upgraded Combat Shotgun and then the Railway Rifle. These guns both teared through enemies, so satisfyingly, I'm not even ashamed to say that they were the reason why I went on to finish Fallout 4. It wasn't the sequel to Fallout 3 that I wanted, but Fallout 4 was for the most part fun, which is all you can ask for in a video game.",
+  "quote": ""
+},
+{
   "title": "Day One",
-  "image": "../images/blog/yeh-a-wizard.jpg",
+  "image": "../images/blog/day-one.jpg",
   "date": "September 01, 2025",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -13,7 +24,7 @@
 },
 {
   "title" : "Day Two",
-  "image": "../images/blog/transformers-foc.jpg",
+  "image": "../images/blog/day-two.jpg",
   "date": "August 9, 2016",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -24,7 +35,7 @@
 },
 {
   "title": "Day Three",
-  "image": "../images/blog/la-noire.jpg",
+  "image": "../images/blog/day-three.jpg",
   "date": "May 17, 2017",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -35,7 +46,7 @@
 },
 {
   "title": "Day Four",
-  "image": "../images/blog/burnout-paradise-remastered.jpg",
+  "image": "../images/blog/day-four.jpg",
   "date": "March 16, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -46,7 +57,7 @@
 },
 {
   "title": "Day Five",
-  "image": "../images/blog/god-of-war.jpg",
+  "image": "../images/blog/day-five.jpg",
   "date": "April 20, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -57,7 +68,7 @@
 },
 {
   "title": "Day Six",
-  "image": "../images/blog/detroit-become-human.jpg",
+  "image": "../images/blog/day-six.jpg",
   "date": "April 24, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -68,7 +79,7 @@
 },
 {
   "title": "Day Seven",
-  "image": "../images/blog/assassins-creed-odyssey.jpg",
+  "image": "../images/blog/day-seven.jpg",
   "date": "October 2, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -79,7 +90,7 @@
 },
 {
   "title": "Day Eight",
-  "image": "../images/blog/kingdom-hearts-3.jpg",
+  "image": "../images/blog/day-eight.jpg",
   "date": "January 25, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -90,7 +101,7 @@
 },
 {
   "title": "Day Nine",
-  "image": "../images/blog/days-gone.jpg",
+  "image": "../images/blog/day-nine.jpg",
   "date": "April 26, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -101,7 +112,7 @@
 },
 {
   "title": "Day Ten",
-  "image": "../images/blog/final-fantasy-x-remastered.jpg",
+  "image": "../images/blog/day-ten.jpg",
   "date": "April 30, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -112,7 +123,7 @@
 },
 {
   "title": "Day Eleven",
-  "image": "../images/blog/creature-in-the-well.jpg",
+  "image": "../images/blog/day-eleven.jpg",
   "date": "September 6, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -123,7 +134,7 @@
 },
 {
   "title": "Day Twelve",
-  "image": "../images/blog/greedfall.jpg",
+  "image": "../images/blog/day-twelve.jpg",
   "date": "September 10, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -134,7 +145,7 @@
 },
 {
   "title" : "Day Thirteen",
-  "image": "../images/blog/indivisible.jpg",
+  "image": "../images/blog/day-thirteen.jpg",
   "date": "October 8, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -145,7 +156,7 @@
 },
 {
   "title" : "Day Fourteen",
-  "image": "../images/blog/the-outer-worlds.jpg",
+  "image": "../images/blog/day-fourteen.jpg",
   "date": "October 25, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -156,7 +167,7 @@
 },
 {
   "title" : "Day Fifteen",
-  "image": "../images/blog/star-wars-jedi-fallen-order.jpg",
+  "image": "../images/blog/day-fifteen.jpg",
   "date": "November 15, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -167,7 +178,7 @@
 },
 {
   "title": "Day Sixteen",
-  "image": "../images/blog/ori-and-the-will-of-the-wisps.jpg",
+  "image": "../images/blog/day-sixteen.jpg",
   "date": "February 11, 2020",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
