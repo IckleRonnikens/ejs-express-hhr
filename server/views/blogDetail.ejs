@@ -3,22 +3,22 @@
 <%# /Import the header%>
 
 
-<%# Gamers Detail %>
+<%# Blogs Detail %>
 <section class="blog">
 <div class="blog-container">
   <div class="blog-masthead">
     <h1>Blog Post</h1>
-    <time>Issue 04 — Winter 2026</time>
+    <time><%= blogDetail.date %></time>
   </div>
 
   <section class="blog-hero">
     <div>
       <h2><%= blogDetail.title %></h2>
-      <p class="blog-hero-text">How negative space shapes modern design philosophy and influences contemporary creative practice</p>
+      <p class="blog-hero-text"><%= blogDetail.summary %></p>
     </div>
     <div class="blog-hero-meta">
-      <p>By Eleanor Chen</p>
-      <p>Photography by Marcus Webb</p>
+      <p>By IckleRonnikens</p>
+      <p>Artwork by <%= blogDetail.artwork %></p>
     </div>
   </section>
 
@@ -26,15 +26,13 @@
     <div class="blog-image-placeholder">
       <img class="w-100 " src="<%= blogDetail.image %>" alt="<%= blogDetail.name %>">
     </div>
-    <p class="blog-caption">Figure 01 — Spatial composition study, 2025</p>
+    <p class="blog-caption">Figure 01 — <%= blogDetail.figure %></p>
   </section>
 
   <section class="blog-body-content">
     <div class="blog-section-label">Introduction</div>
     <div class="blog-body-text">
-      <p>In the pursuit of visual clarity, what we choose to omit becomes as crucial as what we include. This fundamental principle guides contemporary design thinking.</p>
-      <p>The intentional use of empty space - what designers call negative space or white space—creates rhythm, hierarchy, and breathing room within compositions. It allows elements to exist without competing for attention, establishing a visual language that speaks through restraint rather than abundance.</p>
-      <p>Throughout history, masters of various disciplines have understood this principle. Japanese aesthetics celebrate ma, the meaningful void. Minimalist composers explore silence as counterpoint to sound. Architects design with light and air as tangible materials.</p>
+      <p><%= blogDetail.introduction %></p>
     </div>
   </section>
 
@@ -77,7 +75,7 @@
   </div>
 </div>
 </section>
-<%# /Gamers Detail %>
+<%# /Blogs Detail %>
 
 
 <!-- 

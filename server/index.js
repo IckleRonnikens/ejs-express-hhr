@@ -12,7 +12,6 @@ const AboutService = require('./services/AboutService');
 const ArtistsService = require('./services/ArtistsService');  
 const BlogService = require('./services/BlogService'); 
 const CreditsService = require('./services/CreditsService'); 
-const GamerService = require('./services/GamerService');  
 const FanartService = require('./services/FanartService');  
 const FanfictionService = require('./services/FanfictionService');  
 const FeedbackService = require('./services/FeedbackService');  
@@ -37,7 +36,6 @@ const aboutService = new AboutService(config.data.about);
 const artistsService = new ArtistsService(config.data.artists);  
 const blogService = new BlogService(config.data.blog);  
 const creditsService = new CreditsService(config.data.credits);  
-const gamerService = new GamerService(config.data.gamers);  
 const fanartService = new FanartService(config.data.fanart);  
 const fanfictionService = new FanfictionService(config.data.fanfiction);  
 const feedbackService = new FeedbackService(config.data.feedback);  
@@ -67,22 +65,12 @@ app.get('/favicon.ico', (req, res, next) => {
     return res.sendStatus(204); 
 });
 
-app.use(async (req, res, next) => {
-    try {
-        const names = await gamerService.getNames();
-        res.locals.gamerNames = names;
-        return next();
-    }catch(err){
-        return next(err);
-    }
-});
 
 app.use('/', routes({
     aboutService: aboutService,
     artistsService: artistsService,
     blogService: blogService,
     creditsService: creditsService,
-    gamerService: gamerService,
     fanartService: fanartService,
     fanfictionService: fanfictionService,
     feedbackService: feedbackService,

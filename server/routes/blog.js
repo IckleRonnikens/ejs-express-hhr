@@ -3,14 +3,11 @@ const router = express.Router();
 
 module.exports = (param) => {
 
-    const { gamerService } = param; 
     const { blogService } = param;
 
     router.get('/', async(req, res, next) => {
-        const gamerslist = await gamerService.getList();
         const bloglist = await blogService.getList();
-        const allFanart = await gamerService.getAllFanart();
-        return res.render('blog', {page: 'Blogs', gamerslist, bloglist, fanart: allFanart});
+        return res.render('blog', {page: 'Blogs', bloglist});
 
     });
 
@@ -28,7 +25,6 @@ module.exports = (param) => {
             return res.render('blogDetail', {
                 page: req.params.name, 
                 blogDetail: result[0],
-                fanart: result[1],
             });
         }catch (err){
             return next(err);

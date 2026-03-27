@@ -108,32 +108,6 @@
   </section>
   <%#/List of artists%>
 
-    <%#List of Gamers%>
-  <section class="gamers  clearfix" id="gamers">
-    <div class="container">
-      <h1>Gamers</h1> <hr />
-      <div class="row">
-      <%# Gamers List Loop %>
-        <% gamerslist.forEach(function(item) { %>
-        <div class="col-sm-3 text-center my-3">
-          <h3><%= item.title %></h3>
-          <h5> AKA
-            <a href="/gamers/<%= item.shortname %>"><%= item.name %></a>
-          </h5>
-          <p>
-            <a href="/gamers/<%= item.shortname %>">
-              <img class="w-100 " src="./images/gamers/<%= item.shortname %>.jpg" alt="Photo of <%= item.shortname %>">
-            </a>
-            </a>
-            </a>
-          </p>
-        </div>
-        <%  }); %>
-      <%# /Gamers List Loop %>
-      </div>
-    </div>
-  </section>
-  <%#/List of Gamers%>
 
 
 <%#Import the footer%>

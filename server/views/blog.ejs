@@ -12,7 +12,7 @@
 
     <div class="col-lg-6 px-5">
       <h1>Featured Blog</h1><hr />
-      <%# Gamers List Loop %>
+      <%# Blogs List Loop %>
       <% bloglist.slice(-1).forEach(function(blog) { %>
     <div class="row">
 
@@ -23,9 +23,8 @@
       </div>
       <div class="col-sm-8 my-3">
         <h2 class="feaured"><%= blog.title %></h2>
-        <span class="stars-container stars-<%- blog.rating %>">★★★★★</span> 
         <div class="meta-data mb-3">
-          <a class="btn btn-light btn-sm text-uppercase text-dark" href="/gamers/<%= blog.name %>#gamerdetails"><%= blog.name %></a>
+          <a class="btn btn-light btn-sm text-uppercase text-dark" href="/blog/<%= blog.name %>#gamerdetails"><%= blog.name %></a>
           <a class="btn btn-light btn-sm text-uppercase text-dark">Blogs</a>
           <a class="btn btn-light btn-sm text-uppercase text-dark"><strong><%= blog.releasedate %></strong></a>
         </div>
@@ -38,7 +37,7 @@
 
     </div><hr />
       <%  }); %>
-      <%# / Gamers List Loop %>
+      <%# / Blogs List Loop %>
       </div>
 
     </div>
@@ -54,7 +53,7 @@
     <h1>All Blogs</h1><hr />
 
 
-              <%# Gamers List Loop %>
+              <%# Blogs List Loop %>
               <% bloglist.reverse().splice(1).forEach(function(blog) { %>
             <div class="row" >
 
@@ -65,9 +64,8 @@
               </div>
               <div class="col-sm-9 my-3">
                 <h2><%= blog.title %></h2>
-                <span class="stars-container stars-<%- blog.rating %>">★★★★★</span> 
                 <div class="meta-data mb-3">
-                  <a class="btn btn-light btn-sm text-uppercase" href="/gamers/<%= blog.name %>"><%= blog.name %></a>
+                  <a class="btn btn-light btn-sm text-uppercase" href="/blog/<%= blog.name %>"><%= blog.name %></a>
                   <a class="btn btn-light btn-sm text-uppercase">Blogs</a>
                   <a class="btn btn-light btn-sm text-uppercase"><%= blog.releasedate %></a>
                 </div>
@@ -80,7 +78,7 @@
 
             </div><hr />
               <%  }); %>
-              <%# / Gamers List Loop %>
+              <%# / Blogs List Loop %>
 
   </div>
 </section>
