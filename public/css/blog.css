@@ -199,7 +199,6 @@ blockquote {
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(100%) contrast(0.85) brightness(1.1);
 }
 
 .blog-grid-image:nth-child(2) {

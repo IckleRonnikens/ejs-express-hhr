@@ -20,7 +20,7 @@ class BlogService {
     async getList(){
         const data = await this.getData();
         return data.map((blog) => {
-            return {shortname: blog.shortname, title: blog.title, summary: blog.summary, image: blog.image, artwork: blog.artwork, figure: blog.figure, quote: blog.quote};
+            return {shortname: blog.shortname, title: blog.title, author: blog.author, summary: blog.summary, image: blog.image, artwork: blog.artwork, figure: blog.figure, quote: blog.quote};
         });
     }
 
@@ -33,6 +33,7 @@ class BlogService {
 
         return {
             title: blog.title,
+            author: blog.author, 
             shortname: blog.shortname,
             summary: blog.summary,
             introduction: blog.introduction,
