@@ -1,21 +1,9 @@
 {
   "blogs": [
 {
-  "title": "Day Zero",
-  "author": "IckleRonnikens",
-  "image": "../images/blog/day-zero.jpg",
-  "date": "August 25, 2025",
-  "artwork": "Vladislav Pantic",
-  "figure": "You, experiencing Harry and Hermione for the first time",
-  "shortname": "day-zero",
-  "summary": "Yeh a wizard, Arry! Or whatever your name is... welcome, to your first adventure here to the site... ",
-  "introduction": "<p>If there was only one thing I could experience again for the first time, it would be to watch that first Harry Potter film, discovering there were already four books released, and going on the adventure into Hogwarts for the first time.</p> <p> that for the worst game in the franchise, it is still damn fun. Bethesda might have perfected the old video game addage that 'fifteen minutes of fun = success', but there were so many things about Fallout 4 that didn't feel like a Fallout game. Right off the bat, the integration of settlements into the game, ruined the experience very early on. Try as I might those first few times, it felt like a settlement always needed saving right when I was in the middle of killing things. That was the other let down. Creatures that I had once feared and had nightmares about in previous Fallout games, such as Behemoth's and Deathclaw's, were strangely very easy to defeat. And then, I managed to find myself Power Armour, and I literally became too over powered, and that was very early on in the game. My enjoyment skyrocketed, however, upon the discovery of an upgraded Combat Shotgun and then the Railway Rifle. These guns both teared through enemies, so satisfyingly, I'm not even ashamed to say that they were the reason why I went on to finish Fallout 4. It wasn't the sequel to Fallout 3 that I wanted, but Fallout 4 was for the most part fun, which is all you can ask for in a video game.",
-  "quote": ""
-},
-{
   "title": "Day One",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-one.jpg",
+  "image": "../images/blog/001.jpg",
   "date": "September 01, 2025",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -27,7 +15,7 @@
 {
   "title" : "Day Two",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-two.jpg",
+  "image": "../images/blog/002.jpg",
   "date": "August 9, 2016",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -39,7 +27,7 @@
 {
   "title": "Day Three",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-three.jpg",
+  "image": "../images/blog/003.jpg",
   "date": "May 17, 2017",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -51,7 +39,7 @@
 {
   "title": "Day Four",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-four.jpg",
+  "image": "../images/blog/004.jpg",
   "date": "March 16, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -63,7 +51,7 @@
 {
   "title": "Day Five",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-five.jpg",
+  "image": "../images/blog/005.jpg",
   "date": "April 20, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -75,7 +63,7 @@
 {
   "title": "Day Six",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-six.jpg",
+  "image": "../images/blog/006.jpg",
   "date": "April 24, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -87,7 +75,7 @@
 {
   "title": "Day Seven",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-seven.jpg",
+  "image": "../images/blog/007.jpg",
   "date": "October 2, 2018",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -99,7 +87,7 @@
 {
   "title": "Day Eight",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-eight.jpg",
+  "image": "../images/blog/008.jpg",
   "date": "January 25, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -111,7 +99,7 @@
 {
   "title": "Day Nine",
   "author": "IckleRonnikens",
-  "image": "../images/blog/day-nine.jpg",
+  "image": "../images/blog/009.jpg",
   "date": "April 26, 2019",
   "artwork": "Vladislav Pantic",
   "figure": "You, experiencing Harry and Hermione for the first time",
@@ -203,5 +191,90 @@
   "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
   "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
   "quote": ""
-}]
+},
+{
+  "title": "Day Seventeen",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-seventeen.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "ori-and-the-will-of-the-wisps",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+},
+{
+  "title": "Day Eighteen",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-eighteen.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "ori-and-the-will-of-the-wisps",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+},
+{
+  "title": "Day Nineteen",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-nineteen.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "ori-and-the-will-of-the-wisps",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+},
+{
+  "title": "Day Twenty",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-twenty.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "ori-and-the-will-of-the-wisps",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+},
+{
+  "title": "Day Twenty-One",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-twenty-one.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "ori-and-the-will-of-the-wisps",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+},
+{
+  "title": "Day Twenty-Two",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-twenty-two.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "day-twenty-two",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+},
+{
+  "title": "Day Twenty-Three",
+  "author": "IckleRonnikens",
+  "image": "../images/blog/day-twenty-three.jpg",
+  "date": "February 11, 2020",
+  "artwork": "Vladislav Pantic",
+  "figure": "You, experiencing Harry and Hermione for the first time",
+  "shortname": "day-twenty-three",
+  "summary": "Ori and the Will of the Wisps is the sequel that Ori and the Blind Forest deserves, and if possible, the game is even more adorable and heart-wrenching than it's predecessor.",
+  "introduction": "The game starts similarly to the first, a thorough opening cutscene that is at first comforting, before complications arise and Ori is yet again forced to save the day. The story in this game alone is enough of a reason for every game lover to experience first-hand. Gameplay is equally fantastic, and seasoned Ori players will immediately familiarise with the system in place, minus the fact that abilities haven't carried over and you have to start over again. That's not a bad thing, slowly building back into a new Ori game is fun and rewarding, with many old abilities mixed in with new ones, to help navigate the world and solve more intricate puzzles. The main differences in gameplay between the old and new Ori, is that the game now relies heavily on autosaving, instead of 'soul links' in the previous title; the sequential upgrade system has been replaced by 'shards', which allows Ori to be upgraded in multiple ways; and then there are the Spirit Trials, a new mode that has players race against the clock across parts of the map to unlock rewards. The final addition to the game are the characters Ori can now interact with. These are allies that are found across the game, that help give Ori useful items such as shards, ability upgrades and maps. They add to the overrall cuteness of the experience and are a nice touch. Presentation, Performance and Story. These are always the three key points in which a game, in my opinion, should be judged. Ori and the Will of the Wisps ticks all the right boxes and more, and except for the occasional framerate and performance issue, the game is a masterpeice.",
+  "quote": ""
+}
+]
 }
