@@ -2,6 +2,86 @@
 <%- include('templates/header'); -%>
 <%# /Import the header%>
 
+
+<section class="projects">
+  <div class="projects-container">
+<%# Projects Detail %>
+
+
+
+    <div class="projects-masthead">
+    <h1><%= projectsDetail.title %></h1>
+    <time><%= projectsDetail.date %></time>
+  </div>
+
+  <section class="projects-hero">
+    <div>
+      <h2><%= projectsDetail.title %></h2>
+      <p class="projects-hero-text"><%= projectsDetail.summary %></p>
+    </div>
+    <div class="projects-hero-meta">
+      <p>Created by <%= projectsDetail.creator %></p>
+      <p>Artwork by <%= projectsDetail.artwork %></p>
+    </div>
+  </section>
+
+  <section class="projects-featured">
+    <div class="projects-image-placeholder">
+      <img src="<%= projectsDetail.image %>" alt="Spatial composition study">
+    </div>
+    <p class="projects-caption">Figure 01 — <%= projectsDetail.imgdetail %></p>
+  </section>
+
+  <section class="projects-body-content">
+    <div class="projects-section-label">Introduction</div>
+    <div class="projects-body-text">
+      <p><%= projectsDetail.introduction %></p>
+    </div>
+
+  </section>
+
+  <section class="projects-quote-section">
+    <blockquote>
+      "<%= projectsDetail.quote %>"
+    </blockquote>
+    <p class="projects-quote-attribution">— <%= projectsDetail.quoteby %></p>
+  </section>
+
+  <section class="projects-two-column">
+    <div class="projects-section-label">Practice</div>
+    <div class="projects-columns">
+      <div class="projects-column-text">
+        <p>Implementing these principles requires discipline and confidence. The designer must resist the urge to fill every available space, trusting that emptiness serves a purpose beyond mere aesthetics.</p>
+        <p>Consider the page spread: generous margins frame the content, line spacing allows text to breathe, paragraph breaks create natural pauses. Each decision about spacing influences how readers engage with information.</p>
+      </div>
+      <div class="projects-column-text">
+        <p>Digital interfaces present unique challenges. Screen real estate feels precious, stakeholders request more features, analytics drive density. Yet the most successful platforms maintain spatial generosity.</p>
+        <p>The lesson remains consistent across media: clarity emerges from selective focus, enhanced by the strategic use of nothing at all.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-image-grid">
+    <div class="projects-grid-image">
+      <img src="https://assets.codepen.io/406785/augustine-wong-oebTM5wHTfw-unsplash.jpg" alt="Grid image 1">
+    </div>
+    <div class="projects-grid-image">
+      <img src="https://assets.codepen.io/406785/h-co-3oOR7B2inwc-unsplash.jpg" alt="Grid image 2">
+    </div>
+    <div class="projects-grid-image">
+      <img src="https://assets.codepen.io/406785/bharath-kumar-rqIyJozwdTc-unsplash.jpg" alt="Grid image 3">
+    </div>
+  </section>
+
+  <div class="projects-footer">
+    <p>Download the PDF</p>
+    <p>thequarterly.com</p>
+  </div>
+
+<%# /Projects Detail %>
+</div>
+</section>
+
 <section class="projects-details" id="projectsdetails">
   <div class="container">
       <%# Projects Detail %>

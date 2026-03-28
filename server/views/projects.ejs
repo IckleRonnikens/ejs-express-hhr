@@ -2,44 +2,59 @@
 <%- include('templates/header'); -%>
 <%#/Import the header%>
 
-<section class="featured-projects" id="featured">
-  <div class="container">
-      <h1>Featured Game of the Year</h1><hr />
-      <%# Projects List Loop %>
-      <% projectslist.forEach(function(projects) { %>
+<section class="projects">
+  <div class="projects-container">
+  <div class="projects-masthead">
+    <h1>Harry and Hermione Projects</h1>
+    <time>2020 — 2026</time>
+  </div>
 
-  <div class="row">
-
-    <div class="col-lg-6">
-        <a href="/projects/<%= projects.shortname %>">
-          <img class="w-100" src="<%= projects.image %>" alt="Photo of <%= projects.shortname %>">
-        </a>
+  <section class="projects-hero">
+    <div>
+      <h2>The Projects<br>of Harry and Hermione</h2>
+      <p class="projects-hero-text">Below is the comprehensive list of projects that have been undertaken within the Harry and Hermione fandom over the course of the past decade or so.</p>
     </div>
 
-      <div class="col-lg-6">
+  </section>
 
-        <h2><%= projects.title %></h2>
-        <div class="meta-data mb-3">
-          <a class="btn btn-light btn-sm text-uppercase text-dark" href="/gamers/<%= projects.name %>#gamerdetails"><%= projects.shortname %></a>
-          <a class="btn btn-light btn-sm text-uppercase text-dark">projectss</a>
-          <a class="btn btn-light btn-sm text-uppercase text-dark"><%= projects.releasedate %></a>
-        </div>
+    <%# Projects List Loop %>
+    <% projectslist.forEach(function(projects) { %>
 
-        <p><%- projects.summary %></p>
 
-          <a href="/projects/<%= projects.shortname %>"><button class="btn btn-light btn-lg">Read More</button></a>
-        
-      </div>
 
-    </div><hr />
-      <%  }); %>
-      <%# / Projects List Loop %>
-      </div>
 
+    <section class="projects-quote-section">
+    <blockquote>
+      <%= projects.title %>
+    </blockquote>
+  </section>
+
+
+  <section class="projects-body-content">
+    <div class="projects-section-label"><%= projects.title %></div>
+    <div class="projects-body-text">
+        <p><%= projects.summary %></p>
+        <a href="/projects/<%= projects.shortname %>" class="btn btn-primary">View Project</a>
     </div>
+  <section class="projects-featured">
+    <div class="projects-image-placeholder">
+      <img src="<%= projects.image %>" alt="Spatial composition study">
+    </div>
+    <p class="projects-caption">Artwork by — <%= projects.artwork %></p>
+  </section>
+  </section>
+    <%  }); %>
+    <%# / Projects List Loop %>
+
+
+  <div class="projects-footer">
+    <p>Continue reading in Issue 05</p>
+    <p>thequarterly.com</p>
   </div>
-  </div>
+</div>
 </section>
+
+
 
 
 

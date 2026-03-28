@@ -1,25 +1,43 @@
 {
   "projects": [
   {
-    "title" : "The Harry and Hermione Artbook",
+    "title" : "The Art of Harry and Hermione",
     "image": "../images/projectpage/artbook.jpg",
+    "imgdetail": "The cover of the Artbook",
     "shortname" : "harry-and-hermione-artbook",
-    "summary": "<p>The Harry and Hermione artbook was a project created by me (IckleRonnikens) as a tribute towards the many artists within the Harmony community by showcasing all of the artwork created up to that point (10th June 2022) that had been accumulated by my from the best artists in the fandom.</p>",
-    "description": "<p>The Harry and Hermione artbook was a project created by me (IckleRonnikens) as a tribute towards the many artists within the Harmony community by showcasing all of the artwork created up to that point (10th June 2022) that had been accumulated by my from the best artists in the fandom.</p>"
+    "date" : "2022",
+    "artwork" : "Arishatistic",
+    "creator" : "IckleRonnkens",
+    "summary": "The Harry and Hermione artbook was a project created by IckleRonnikens as a tribute towards the many artists within the Harry and Hermione community.",
+    "introduction": "The Harry and Hermione artbook was a passion project. IckleRonnikens, a constant fan of the Harry Potter franchise since the first movie released in 2001 and regular fanfiction writer, decided that there was not enough love towards the many artists within the Harry and Hermione community and as a tribute went about showcasing all of the artwork created up to that point (10th June 2022) by the best artists in the fandom that he had managed to accumulate and put it all together in a single artbook.",
+    "quote": "This is amazing. I can't even imagine the amount of work that went into this. Hats off to you. Thank you for doing this for all of us.",
+    "quoteby": "Astro"
   },
   {
     "title" : "The Harry and Hermione Magazine",
     "image": "../images/projectpage/magazine.jpg",
+    "imgdetail": "The cover of the magazine",
     "shortname" : "harry-and-hermione-magazine",
-    "summary": "<p>The Harry and Hermione magazine was a project created by me (IckleRonnikens) and along with the help of several users from the Harmony discord (see accredited users on pg 82) to one against showcase Harmony art, as well as combining it with ficticious stories and articles about our favourite duo from the franchise.</p>",
-    "description": "<p>The Harry and Hermione magazine was a project created by me (IckleRonnikens) and along with the help of several users from the Harmony discord (see accredited users on pg 82) to one against showcase Harmony art, as well as combining it with ficticious stories and articles about our favourite duo from the franchise.</p>"
+    "date" : "2024",
+    "artwork" : "Disgruntledwing",
+    "creator" : "IckleRonnkens",
+    "summary": "The Harry and Hermione magazine was a project created by IckleRonnikens and along with the help of several users from the Harmony discord (see accredited users on pg 82) to one against showcase Harmony art, as well as combining it with ficticious stories and articles about our favourite duo from the franchise.",
+    "introduction": "The Harry and Hermione magazine was a project created by IckleRonnikens and along with the help of several users from the Harmony discord (see accredited users on pg 82) to one against showcase Harmony art, as well as combining it with ficticious stories and articles about our favourite duo from the franchise.",
+    "quote": "From the bottom of my untalented heart (can't write nor draw) thank you so much for your work.",
+    "quoteby": "Crysthn"
   },
   {
     "title" : "Harmony for Humanity",
     "image": "../images/projectpage/hfh.jpg",
+    "imgdetail": "The image used to announce the event",
     "shortname" : "harmony-for-humanity",
-    "summary": "<p>A 140+ page Harmony Artbook, complete with 22 new artworks from beloved harmony artists ( + 22 bonus accompanying short stories & extra goodies), was created as part of the Harmony for Humanity charity fanart event to raise funds for displaced families. The digital artbook is avaialble for donors only and will not be shared here.  </p>",
-    "description":  "<p>A 140+ page Harmony Artbook, complete with 22 new artworks from beloved harmony artists ( + 22 bonus accompanying short stories & extra goodies), was created as part of the Harmony for Humanity charity fanart event to raise funds for displaced families. The digital artbook is avaialble for donors only and will not be shared here.</p> <p>More information can be found here."
+    "date" : "2024",
+    "artwork" : "Arishatistic",
+    "creator" : "HMS Discord",
+    "summary": "A 140+ page Harmony Artbook, complete with 22 new artworks from beloved harmony artists ( + 22 bonus accompanying short stories & extra goodies), was created as part of the Harmony for Humanity charity fanart event to raise funds for displaced families. The digital artbook is avaialble for donors only and will not be shared here.  ",
+    "introduction":  "A 140+ page Harmony Artbook, complete with 22 new artworks from beloved harmony artists ( + 22 bonus accompanying short stories & extra goodies), was created as part of the Harmony for Humanity charity fanart event to raise funds for displaced families. The digital artbook is avaialble for donors only and will not be shared here. More information can be found here.",
+    "quote": "This is amazing. I can't even imagine the amount of work that went into this. Hats off to you. Thank you for doing this for all of us.",
+    "quoteby": "Astro"
   }
 ]
 }

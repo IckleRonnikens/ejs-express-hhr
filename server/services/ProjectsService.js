@@ -20,7 +20,19 @@ class ProjectsService {
     async getList(){
         const data = await this.getData();
         return data.map((projects) => {
-            return {shortname: projects.shortname, title: projects.title, summary: projects.summary, image: projects.image };
+            return {
+            title: projects.title,
+            image: projects.image,
+            imgdetail: projects.imgdetail,
+            shortname: projects.shortname,
+            date: projects.date,
+            artwork: projects.artwork,
+            creator: projects.creator,
+            summary: projects.summary,
+            introduction: projects.introduction,
+            quote: projects.quote,
+            quoteby: projects.quoteby
+        };
         });
     }
 
@@ -33,9 +45,16 @@ class ProjectsService {
 
         return {
             title: projects.title,
+            image: projects.image,
+            imgdetail: projects.imgdetail,
             shortname: projects.shortname,
-            description: projects.description,
-            image: projects.image
+            date: projects.date,
+            artwork: projects.artwork,
+            creator: projects.creator,
+            summary: projects.summary,
+            introduction: projects.introduction,
+            quote: projects.quote,
+            quoteby: projects.quoteby
         }
     }
 }

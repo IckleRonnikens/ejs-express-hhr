@@ -1,0 +1,229 @@
+/* Theme Colours */
+.hhr-theme {
+  --primary: #0275d8;
+  --success: #5cb85c;
+  --info: #5bc0de;
+  --warning: #f0ad4e;
+  --danger: #d9534f;
+  --inverse: #292b2c;
+  --faded: #f7f7f7;
+}
+
+/* Projects */
+.projects {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--inverse);
+  color: var(--faded);
+  line-height: 1.6;
+  padding: 4rem 2rem;
+}
+
+.projects-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.projects-masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+.projects-masthead h1 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.projects-masthead time {
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.projects-hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+.projects-hero h2 {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+}
+
+.projects-hero-text {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--faded);
+  max-width: 40rem;
+}
+
+.projects-hero-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.projects-hero-meta p:last-child {
+  color: var(--faded);
+}
+
+.projects-featured {
+  margin-bottom: 6rem;
+}
+
+.projects-image-placeholder {
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #e5e5e5 0%, #f5f5f5 100%);
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+
+.projects-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.projects-caption {
+  font-size: 0.75rem;
+  color: #a3a3a3;
+  letter-spacing: 0.05em;
+}
+
+.projects-body-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+.projects-section-label {
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+.projects-body-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.projects-body-text p:first-child {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--faded);
+}
+
+.projects-body-text p {
+  color: var(--faded);
+}
+
+.projects-quote-section {
+  padding: 6rem 0;
+  margin: 6rem 0;
+  border-top: 1px solid var(--faded);
+  border-bottom: 1px solid var(--faded);
+}
+
+.projects blockquote {
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--faded);
+}
+
+.projects-quote-attribution {
+  font-size: 0.875rem;
+  color: #737373;
+  margin-top: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.projects-two-column {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+.projects-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.projects-column-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #404040;
+}
+
+.projects-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 6rem;
+}
+
+.projects-grid-image {
+  aspect-ratio: 3 / 4;
+  background: linear-gradient(180deg, #e5e5e5 0%, #f5f5f5 100%);
+  overflow: hidden;
+}
+
+.projects-grid-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.projects-grid-image:nth-child(2) {
+  background: linear-gradient(180deg, #e5e5e5 0%, #fafafa 100%);
+}
+
+.projects-footer {
+  border-top: 1px solid #1a1a1a;
+  padding-top: 2rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.projects-footer p:first-child {
+  color: #737373;
+}

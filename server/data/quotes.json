@@ -1,11 +1,5 @@
 {
-  "title": "The H/Hr Quotes Masterlist",
-  "intro": [
-    "This H/Hr quote collection was compiled by Users @Crazy and @Indo_Carib over at the HMS Harmony discord. You can find the cord here: https://discord.gg/2GcXw8R",
-    "Not all of the quotes here will be explicitly romantic quotes; they are quotes that contribute to our understanding of Harry and Hermione as people, their interactions with each other, and their relationship which shone in all the moments, big or small. Every bizarre situation they found themselves in, whether in a straightforward or subtle way. Canon is full to the brim with moments that showcase Harry and Hermione’s relationship, strong friendship, and foundation of trust, love, and understanding that belongs only to them.",
-    "These quotes are the wood and nails that built the ship H.M.S. Harmony."
-  ],
-  "sections": [
+  "quotes": [
     {
       "book": "The Philosopher's Stone (1997)",
       "entries": [
