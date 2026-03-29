@@ -51,7 +51,6 @@ class ArtistsService {
         return {
             name: artists.name,
             shortname: artists.shortname,
-            description: artists.description, 
             summary: artists.summary, 
             aurl:artists.aurl
         }

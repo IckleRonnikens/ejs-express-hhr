@@ -2,50 +2,63 @@
 <%- include('../templates/header'); -%>
 <%# /Import the header%>
 
-
-<section class="artists-details">
+<section class="fanart">
+  <div class="fanart-container">
 <%# Artists Details %>
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="/images/artists/<%= artists.shortname %>.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo of <%= artists.title %>" width="700" height="500" loading="lazy">
-      </div>
-      
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-white lh-1 mb-3"><%= artists.name %></h1>
-        <p class="lead"><%- artists.description %></p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a href="<%- artists.aurl %>" class="btn btn-primary btn-lg px-4 me-md-2" target="_blank">View on Social Media</a>
-          <a href="#gallery" class="btn btn-outline-secondary btn-lg px-4">View Artwork</a>
-        </div>
-      </div>
-    </div>
+
+  <div class="fanart-masthead">
+    <h1>Artists</h1>
+    <time>Updated — 2026</time>
   </div>
+
+  <section class="fanart-hero">
+    <div>
+      <h2><%= artists.name %></h2>
+      <p class="fanart-hero-text"><%= artists.summary %></p>
+    </div>
+  <section class="fanart-featured">
+    <div class="fanart-image-placeholder">
+        <img src="/images/artists/<%= artists.shortname %>.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo of <%= artists.title %>" width="700" height="500" loading="lazy">
+    </div>
+    <p class="fanart-caption"><%= artists.name %> — Social media: <%= artists.aurl %></p>
+  </section>
+    
+  </section>
+
+
+  <section class="fanart-quote-section">
+    <blockquote>
+      "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."
+    </blockquote>
+    <p class="fanart-quote-attribution">— Antoine de Saint-Exupéry</p>
+  </section>
+
+
+
+  <section class="fanart-image-grid">
+    <%# Fanart %>
+    <% if (fanart.reverse().length > 0) { %>
+    <%for (i=0; i < fanart.length; i ++){ %>
+    <div class="fanart-grid-image">
+      <a href="/images/fanart/<%= artists.shortname %>/<%= fanart[i] %>.jpg" data-lightbox="<%= artists.shortname %>" data-title="<%= artists.shortname %>">
+      <img class="w-100" src="/images/fanart/<%= artists.shortname %>/<%= fanart[i] %>.jpg" alt="Photo of <%= fanart[i] %>" >
+      </a>
+    </div>
+    <%}%>
+    <% }  %>
+    <%# /Fanart %>
+  </section>
+
+  <div class="fanart-footer">
+    <p><a href="/fanart/artists">Back to Artists</a></p>
+    <p><%= artists.name %></p>
+  </div>
+
+<%# /Artists Details %>
+
+</div>
 </section>
 
-<div class="b-example-divider"></div>
-
-<section class="gallery" id="gallery">
-  <div class="container">
-    <h1>Artwork</h1><hr />
-
-      <div class="row"> 
-                <%# Fanart %>
-                <% if (fanart.reverse().length > 0) { %>
-                  <%for (i=0; i < fanart.length; i ++){ %>
-            <div class="col-sm-2 mb-4 ">
-              <a href="/images/fanart/<%= artists.shortname %>/<%= fanart[i] %>.jpg" data-lightbox="<%= artists.shortname %>" data-title="<%= artists.shortname %>">
-                    <img class="w-100" src="/images/fanart/<%= artists.shortname %>/<%= fanart[i] %>.jpg" alt="Photo of <%= fanart[i] %>" >
-                </a>
-              </div>
-                  <%}%>
-                <% }  %>
-              <%# /Fanart %>
-            </div>
-    </div>
-  </section>
-        
-      <%# /Artists Details %>
 
 <%# Import the footer %>
 <%- include('../templates/footer'); -%>
