@@ -418,14 +418,14 @@ blockquote {
 /* 404 PAGE  */
 .error {
   background: url(../images/misc/bg-error.jpg) no-repeat 100% 5%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
   color: var(--faded);
-
 }
 
 

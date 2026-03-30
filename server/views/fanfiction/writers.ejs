@@ -2,29 +2,36 @@
 <%- include('../templates/header'); -%>
 <%#/Import the header%>
 
-<section class="writers" id="allwriters">
-  <div class="container">
-    <h1>Writers</h1><hr />
+<section class="fanfiction" id="allwriters">
+  <div class="fanfiction-container">
+    <div class="fanfiction-masthead">
+    <h1>writers</h1>
+    <time>Updated — Winter 2026</time>
+  </div>
 
-              <%# Writers List Loop %>
-              <% writerslist.forEach(function(writer) { %>
-            <div class="row">
+      <section class="fanfiction-image-grid">
 
-              <div class="col-sm-3">
-                <a href="/fanfiction/writers/<%= writer.shortname %>">
-                  <img class="w-100 " src="/images/writers/<%= writer.shortname %>.jpg" alt="Photo of <%= writer.shortname %>">
+        <%# writers List Loop %>
+        <% writerslist.forEach(function(writers) { %>
+        <div class="fanfiction-grid-image">
+        
+                <a href="/fanfiction/writers/<%= writers.shortname %>">
+                  <img class="w-100 " src="/images/writers/<%= writers.shortname %>.jpg" alt="Photo of <%= writers.shortname %>">
                 </a>
-              </div>
-              <div class="col-sm-9 ">
-                <h3><a href="/fanfiction/writers/<%= writer.shortname %>"><%= writer.name %></a></h3>
-                <p><%- writer.summary %></p><br />
-                <a href="/fanfiction/writers/<%= writer.shortname %>"><button class="btn btn-light">View Profile</button></a>
-              </div>
 
-            </div><hr />
 
-              <%  }); %>
-              <%# / Writers List Loop %>
+                <h3><a href="/writers/<%= writers.shortname %>"><%= writers.name %></a></h3>
+                <a href="/fanfiction/writers/<%= writers.shortname %>"><button class="btn btn-light">View Profile</button></a>
+        
+        </div>
+        <%  }); %>
+        <%# / writers List Loop %>
+      </section>
+
+        <div class="fanfiction-footer">
+    <p>Writers Page</p>
+    <p>Harry and Hermione</p>
+  </div>
 
   </div>
 </section>

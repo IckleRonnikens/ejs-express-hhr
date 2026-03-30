@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid var(--faded);
   padding-bottom: 2rem;
   margin-bottom: 4rem;
 }
@@ -50,6 +50,7 @@
   grid-template-columns: 2fr 1fr;
   gap: 3rem;
   margin-bottom: 6rem;
+  border-bottom: 1px solid var(--faded);
 }
 
 .projects-hero h2 {
@@ -142,24 +143,14 @@
   color: var(--faded);
 }
 
-.projects-quote-section {
+.projects-divider-section {
   padding: 6rem 0;
   margin: 6rem 0;
   border-top: 1px solid var(--faded);
   border-bottom: 1px solid var(--faded);
 }
 
-.projects blockquote {
-  max-width: 60rem;
-  margin: 0 auto;
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 300;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
-  color: var(--faded);
-}
-
-.projects-quote-attribution {
+.projects-divider-attribution {
   font-size: 0.875rem;
   color: #737373;
   margin-top: 1.5rem;

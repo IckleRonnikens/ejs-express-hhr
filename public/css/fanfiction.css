@@ -52,8 +52,6 @@
   grid-template-columns: 2fr 1fr;
   gap: 3rem;
   margin-bottom: 6rem;
-    border-bottom: 1px solid;
-  border-color: var(--faded);
 }
 
 .fanfiction-hero h2 {

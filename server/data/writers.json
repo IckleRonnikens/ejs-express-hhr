@@ -4,64 +4,88 @@
     "shortname" : "aeyliana",
     "aurl" : "https://archiveofourown.org/users/Aeyliana",
     "furl" : "https://archiveofourown.org/users/Aeyliana",
-    "summary" : "<p>One of the best writers in the fandom</p>",
-    "description": "<p>Woo.</p>",
-    "stories": ["gettypwah", "sw", "fallout-4", "burnout-paradise-remastered"]
+    "summary" : "Aeyliana is widely regarded as one of the best and most accomplished writers in the Harry and Hermione fandom. She has written long, and beloved stories, bringing a relationship between our two favourite heroes in a way that is vastly unmatched. ",
+    "introduction": "insert",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["veritas-quaesitor", "under-the-stars", "cross-my-heart", "small-world", "code-black", "gtypwa"]
   },{
     "name": "Airplane Food Black Market",
     "shortname" : "airplanefoodblackmarket",
     "aurl" : "https://archiveofourown.org/users/airplanefoodblackmarket",
     "furl" : "https://archiveofourown.org/users/airplanefoodblackmarket",
     "summary": "<p>New and upcoming.</p>",
-    "description": "<p>Insert description here.</p>",
-    "stories" : ["indivisible", "assassins-creed-odyssey", "final-fantasy-x-remastered", "kingdom-hearts-3"]
+    "introduction": "<p>Insert introduction here.</p>",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["veritas-quaesitor", "under-the-stars", "cross-my-heart", "small-world", "code-black", "gtypwa"]
   },{
     "name": "Crediblydisavowed",
     "shortname" : "crediblydisavowed",
     "aurl" : "https://archiveofourown.org/users/crediblydisavowed",
     "furl" : "https://archiveofourown.org/users/crediblydisavowed",
     "summary": "<p>Known as the Pom, Well, at least one of them.</p>",
-    "description": "<p>The most seasoned story tellers.</p>",
-    "stories" : ["creature-in-the-well", "transformers-foc", "la-noire", "greedfall"]
+    "introduction": "<p>The most seasoned story tellers.</p>",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["veritas-quaesitor", "under-the-stars", "cross-my-heart", "small-world", "code-black", "gtypwa"]
   },{
     "name": "Dragonmarked",
     "shortname" : "dragonmarked",
     "aurl" : "https://archiveofourown.org/users/dragonmarked",
     "furl" : "https://archiveofourown.org/users/dragonmarked",
     "summary": "<p>Song lyrics are key.</p>",
-    "description": "<p>Some of the best smut eva. </p>  ",
-    "stories" : ["days-gone", "detroit-become-human","star-wars-jedi-fallen-order", "god-of-war"]
+    "introduction": "<p>Some of the best smut eva. </p>  ",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["veritas-quaesitor", "under-the-stars", "cross-my-heart", "small-world", "code-black", "gtypwa"]
   },{
     "name": "Elastic Heart 31",
     "shortname" : "elastic-heart31",
     "aurl" : "https://archiveofourown.org/users/elastic-heart31",
     "furl" : "https://archiveofourown.org/users/elastic-heart31",
     "summary": "<p>Elastic Heart.</p>",
-    "description": "<p>The most interesting thing...</p>",
-    "stories" : ["creature-in-the-well", "transformers-foc", "la-noire", "greedfall"]
+    "introduction": "<p>The most interesting thing...</p>",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["veritas-quaesitor", "under-the-stars", "cross-my-heart", "small-world", "code-black", "gtypwa"]
   },{
     "name": "Ickle Ronnikens",
     "shortname" : "ickleronnikens",
     "aurl" : "https://archiveofourown.org/users/ickleronnikens",
     "furl" : "https://archiveofourown.org/users/ickleronnikens",
     "summary": "<p>This guy is an idiot.</p>",
-    "description": "<p>Don't read any of his shitty works.</p>",
-    "stories" : ["cj", "transformers-foc", "la-noire", "greedfall"]
+    "introduction": "<p>Don't read any of his shitty works.</p>",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["bookstore", "captains-jersey", "grangers-house", "flying-delivery-service", "a-study-in-umbridge", "target"]
   },{
     "name": "Just an Echo",
     "shortname" : "just-an-echo",
     "aurl" : "https://archiveofourown.org/users/just-an-echo",
     "furl" : "https://archiveofourown.org/users/just-an-echo",
     "summary": "<p>TITS.</p>",
-    "description": "<p>TITS. </p>  ",
-    "stories" : ["tits", "detroit-become-human","star-wars-jedi-fallen-order", "god-of-war"]
+    "introduction": "<p>TITS. </p>  ",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
+    "stories": ["tits", "soot", "cross-my-heart", "small-world", "code-black", "gtypwa"]
   },{
     "name": "Syzygy Spirit",
     "shortname" : "syzygy-spirit",
     "aurl" : "https://archiveofourown.org/users/syzygy-spirit",
     "furl" : "https://archiveofourown.org/users/syzygy-spirit",
     "summary": "<p>German writer.</p>",
-    "description": "<p>Good chap.</p>",
+    "introduction": "<p>Good chap.</p>",
+    "quote": "",
+    "quoteby": "",
+    "info": "",
     "stories" : ["creature-in-the-well", "transformers-foc", "la-noire", "greedfall"]
   }
 ]
