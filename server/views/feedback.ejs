@@ -1,76 +1,88 @@
 <%# Import the header %>
 <%- include('templates/header'); -%>
 <%# /Import the header %>
-<style>header {display:none}</style>
-<section class="feedback" id="feedback">
-  <div class="container" >
-    <div class="row">
-      <div class="col-sm-12">
-        <h1 >Send Feedback</h1><hr />
-        <%# Feedback Form %>
-          <form class="feedback-form" action="/feedback" method="POST">
-            <div class="form-group">
-              <label for="feedback-form-name">Name</label><hr>
-              <input class="form-control" id="feedback-form-name" type="text" placeholder="Enter your name" name="fbName">
-            </div>
-            <br>
-            <div class="form-group">
-              <label for="feedback-form-title">Title</label><hr>
-              <input class="form-control" id="feedback-form-title" type="text" placeholder="Title of your feedback" name="fbTitle">
-            </div>
-            <br>
-            <div class="form-group">
-              <label for="feedback-form-message">Message</label><hr>
-              <textarea class="form-control" id="feedback-form-message" type="text" placeholder="Enter your message, then hit the submit" rows="6" name="fbMessage"></textarea>
-            </div>
-            <br>
-            <button class="btn btn-dark" type="submit">Submit</button>
-            <button class="btn btn-danger" type="submit">Clear</button>
-            <button class="btn btn-primary"><a href="/feedback#subfeedback">Read Feedback</a></button>
 
-          </form>
-        <%# /Feedback Form %>
-      </div>
-      <%# primary %>
-    </div>
+<section class="feedback">
+  <div class="feedback-container">
+  <div class="feedback-masthead">
+    <h1>Feedback Form</h1>
   </div>
-</section>
 
-<section class="feedback" id="subfeedback">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-sm-12">
-
-        <h1 class="article-title">Recent Feedback</h1><hr />
-
-        <%# Feedback List Loop %>
-        <% feedbacklist.forEach(function(item) { %> 
-
-          <table class="table table-striped w-100 text-center">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col"></th>
-                <th scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row"><%= item.name %></th>
-                <td><%= item.title %></td>
-                <td><%= item.message %></td>
-              </tr>
-            </tbody>
-          </table>
-            <%  }); %>
-          <%# Feedback List Loop %>
-          </div>
-        </div>
-      <%# secondary %>
+  <section class="feedback-hero">
+    <div>
+      <h2>Have Your Say</h2>
+      <p class="feedback-hero-text">If you would like to leave a comment about the site, make a suggestion, or see something changed, then please do so by filling out the form below.</p>
     </div>
-  <%# container %>
+  </section>
+
+
+<%# Feedback Form %>
+  <form class="feedback-form" action="/feedback" method="POST">
+
+  <section class="feedback-body-content">
+    
+    <div class="feedback-section-label">Name</div>
+    <div class="feedback-body-text">
+      <p><input class="form-control" id="feedback-form-name" type="text" placeholder="Enter your name" name="fbName"></p>
+    </div>
+  </section>
+
+  <section class="feedback-body-content">
+    <div class="feedback-section-label">Title</div>
+    <div class="feedback-body-text">
+      <p><input class="form-control" id="feedback-form-title" type="text" placeholder="Title of your feedback" name="fbTitle"></p>
+    </div>
+  </section>
+
+  <section class="feedback-body-content">
+    <div class="feedback-section-label">Message</div>
+    <div class="feedback-body-text">
+      <p><textarea class="form-control" id="feedback-form-message" type="text" placeholder="Enter your message, then hit the submit" rows="6" name="fbMessage"></textarea></p>
+    </div>
+  </section>
+
+  <section class="feedback-body-content">
+    <div class="feedback-section-label"></div>
+    <div class="feedback-body-text">
+      <p>            <button class="btn btn-dark" type="submit">Submit</button>
+            <button class="btn btn-danger" type="submit">Clear</button>
+            <button class="btn btn-primary"><a href="/feedback#subfeedback">Read Feedback</a></button></p>
+    </div>
+  </section>
+  <%# /Feedback Form %>
+
+
+
+    <div class="feedback-masthead">
+    <h1>Feedback Messages</h1>
+  </div>
+<%# Feedback List Loop %>
+<% feedbacklist.forEach(function(item) { %> 
+  <div class="feedback-masthead">
+    <h1><%= item.name %></h1>
+  </div>
+
+  <section class="feedback-body-content">
+    
+    <div class="feedback-section-label"><%= item.title %></div>
+    <div class="feedback-body-text">
+      <p><%= item.message %></p>
+    </div>
+  </section>
+<%  }); %>
+<%# Feedback List Loop %>
+
+
+
+
+
+  <div class="feedback-footer">
+    <p>Feedback Page</p>
+    <p>Harry and Hermione</p>
+  </div>
+</div>
 </section>
+
 <%# Import the footer %>
 <%- include('templates/footer'); -%>
 <%# /Import the footer %>
