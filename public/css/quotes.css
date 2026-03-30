@@ -224,7 +224,8 @@ blockquote {
 }
 
 .quotes-footer {
-  border-top: 1px solid #1a1a1a;
+  border-top: 1px solid;
+  border-color: var(--faded);
   padding-top: 2rem;
   margin-top: 6rem;
   display: flex;

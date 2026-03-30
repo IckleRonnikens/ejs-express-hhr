@@ -19,6 +19,7 @@
                   <img class="w-100 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.shortname %>">
                 </a>
 
+
                 <h3><a href="/artists/<%= artists.shortname %>"><%= artists.name %></a></h3>
                 <a href="/fanart/artists/<%= artists.shortname %>"><button class="btn btn-light">View Profile</button></a>
         
@@ -26,6 +27,11 @@
         <%  }); %>
         <%# / Artists List Loop %>
       </section>
+
+        <div class="fanart-footer">
+    <p>Artists Page</p>
+    <p>Harry and Hermione</p>
+  </div>
 
   </div>
 </section>
