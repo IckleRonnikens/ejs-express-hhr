@@ -2,67 +2,79 @@
 <%- include('../templates/header'); -%>
 <%#/Import the header%>
 
-<section class="gamers" id="allgamers">
-  <div class="container">
-    <h1>Fanfiction</h1><hr />
-      
-      <div class="row">
-        <div class="col-sm-3">
-          <a href="/fanfiction/writers">
-          <img class="w-100 " src="/images/fanfictionpage/writers.jpg" alt="Photo of writers">
-          </a>
-      </div>
-      
-      <div class="col-sm-9 ">
-        <h3><a href="/fanfiction/writers">Writers</a></h3>
-        <h5> AKA
-          <a href="/fanfiction/writers">Writers</a>
-        </h5>
-        
-        <p>Summary of Writers</p><br />
-        <a href="/fanfiction/writers"><button class="btn btn-light">View Writers</button></a>
-      </div>
-    </div><hr />
-
-
-      <div class="row">
-        <div class="col-sm-3">
-          <a href="/fanfiction/archives">
-          <img class="w-100 " src="/images/fanfictionpage/archives.jpg" alt="Photo of archives">
-          </a>
-      </div>
-      
-      <div class="col-sm-9 ">
-        <h3><a href="/fanfiction/archives">Safe for Work</a></h3>
-        <h5> AKA
-          <a href="/fanfiction/archives">Safe for Work</a>
-        </h5>
-        
-        <p>Summary of Safe for Work</p><br />
-        <a href="/fanfiction/archives"><button class="btn btn-light">View Safe for Work</button></a>
-      </div>
-    </div><hr />
-
-
-      <div class="row">
-        <div class="col-sm-3">
-          <a href="/fanfiction/publiclist">
-          <img class="w-100 " src="/images/fanfictionpage/publiclist.jpg" alt="Photo of publiclist">
-          </a>
-      </div>
-      
-      <div class="col-sm-9 ">
-        <h3><a href="/fanfiction/publiclist">Not Safe For Work</a></h3>
-        <h5> AKA
-          <a href="/fanfiction/publiclist">Not Safe For Work</a>
-        </h5>
-        
-        <p>Summary of Not Safe For Work</p><br />
-        <a href="/fanfiction/publiclist"><button class="btn btn-light">View Not Safe For Work</button></a>
-      </div>
-    </div><hr />
+<section class="fanfiction">
+  <div class="fanfiction-container">
+  <div class="fanfiction-masthead">
+    <h1>Fanfiction</h1>
+    <time>Updated — March 2026</time>
   </div>
+
+  <section class="fanfiction-hero">
+    <div>
+      <h2>Harry and Hermione<br> fanfiction</h2>
+      <p class="fanfiction-hero-text">The best collection of the best Harry and Hermione fanfiction on the internet...</p><br>
+    </div>
+
+  </section>
+
+  <section class="fanfiction-body-content">
+    <div class="fanfiction-section-label">Writers</div>
+    <div class="fanfiction-body-text">
+      <p>In the pursuit of visual clarity, what we choose to omit becomes as crucial as what we include. This fundamental principle guides contemporary design thinking.</p>
+      <p>The intentional use of empty space - what designers call negative space or white space—creates rhythm, hierarchy, and breathing room within compositions. It allows elements to exist without competing for attention, establishing a visual language that speaks through restraint rather than abundance.</p>
+      <a href="/fanfiction/writers" class="btn btn-sm w-25 btn-primary">View Writers</a>
+    </div>
+    <div class="fanfiction-grid-image">
+      <img src="/images/fanfictionpage/writers.jpg" alt="writers">
+    </div>
+  </section>
+
+  <section class="fanfiction-quote-section">
+    <blockquote>
+      "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."
+    </blockquote>
+    <p class="fanfiction-quote-attribution">— Antoine de Saint-Exupéry</p>
+  </section>
+
+  <section class="fanfiction-body-content">
+    <div class="fanfiction-section-label">Archives</div>
+    <div class="fanfiction-body-text">
+      <p>In the pursuit of visual clarity, what we choose to omit becomes as crucial as what we include. This fundamental principle guides contemporary design thinking.</p>
+      <p>The intentional use of empty space - what designers call negative space or white space—creates rhythm, hierarchy, and breathing room within compositions. It allows elements to exist without competing for attention, establishing a visual language that speaks through restraint rather than abundance.</p>
+      <a href="/fanfiction/archives" class="btn btn-sm w-25 btn-primary">View Archives</a>
+    </div>
+    <div class="fanfiction-grid-image">
+      <img src="/images/fanfictionpage/archives.jpg" alt="writers">
+    </div>
+  </section>
+
+  <section class="fanfiction-quote-section">
+    <blockquote>
+      "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."
+    </blockquote>
+    <p class="fanfiction-quote-attribution">— Antoine de Saint-Exupéry</p>
+  </section>
+
+  <section class="fanfiction-body-content">
+    <div class="fanfiction-section-label">Public Lists</div>
+    <div class="fanfiction-body-text">
+      <p>In the pursuit of visual clarity, what we choose to omit becomes as crucial as what we include. This fundamental principle guides contemporary design thinking.</p>
+      <p>The intentional use of empty space - what designers call negative space or white space—creates rhythm, hierarchy, and breathing room within compositions. It allows elements to exist without competing for attention, establishing a visual language that speaks through restraint rather than abundance.</p>
+      <a href="/fanfiction/publiclist" class="btn btn-sm w-25 btn-primary">View Public Lists</a>
+    </div>
+    <div class="fanfiction-grid-image">
+      <img src="/images/fanfictionpage/publiclist.jpg" alt="writers">
+    </div>
+  </section>
+
+  <div class="fanfiction-footer">
+    <p>Fanfiction</p>
+    <p>Harry and Hermione</p>
+  </div>
+</div>
 </section>
+
+
 <%#Import the footer%>
 <%- include('../templates/footer'); -%>
 <%#/Import the footer%>
