@@ -9,7 +9,6 @@ module.exports = {
             privacy: path.join(__dirname, 'data/privacy.json'),
             feedback: path.join(__dirname, 'data/feedback.json'),
             projects: path.join(__dirname, 'data/projects.json'),
-            gallery: path.join(__dirname, 'data/gallery.json'),
             quotes: path.join(__dirname, 'data/quotes.json'),
             fanart: path.join(__dirname, 'data/fanart.json'),
             artists: path.join(__dirname, 'data/artists.json'),
@@ -39,8 +38,7 @@ module.exports = {
             fanfiction: path.join(__dirname, 'data/fanfiction.json'),
             writers: path.join(__dirname, 'data/writers.json'),
             feedback: path.join(__dirname, 'data/feedback.json'),
-            projects: path.join(__dirname, 'data/projects.json'),
-            gallery: path.join(__dirname, 'data/gallery.json')
+            projects: path.join(__dirname, 'data/projects.json')
 
         }
     }

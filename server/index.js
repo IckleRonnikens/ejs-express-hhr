@@ -16,7 +16,6 @@ const FanartService = require('./services/FanartService');
 const FanfictionService = require('./services/FanfictionService');  
 const FeedbackService = require('./services/FeedbackService');  
 const ProjectsService = require('./services/ProjectsService'); 
-const GalleryService = require('./services/GalleryService'); 
 const PrivacyService = require('./services/PrivacyService'); 
 const QuotesService = require('./services/QuotesService'); 
 const SfwService = require('./services/SfwService'); 
@@ -40,7 +39,6 @@ const fanartService = new FanartService(config.data.fanart);
 const fanfictionService = new FanfictionService(config.data.fanfiction);  
 const feedbackService = new FeedbackService(config.data.feedback);  
 const projectsService = new ProjectsService(config.data.projects);  
-const galleryService = new GalleryService(config.data.gallery);  
 const privacyService = new PrivacyService(config.data.privacy);  
 const quotesService = new QuotesService(config.data.quotes);  
 const sfwService = new SfwService(config.data.sfw);  
@@ -75,7 +73,6 @@ app.use('/', routes({
     fanfictionService: fanfictionService,
     feedbackService: feedbackService,
     projectsService: projectsService,
-    galleryService: galleryService,
     privacyService: privacyService,
     quotesService: quotesService,
     sfwService: sfwService,
