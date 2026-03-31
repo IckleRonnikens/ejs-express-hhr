@@ -53,27 +53,24 @@
 
 
 
-    <div class="feedback-masthead">
-    <h1>Feedback Messages</h1>
-  </div>
+<div class="feedback-masthead">
+<h1>Feedback Messages</h1>
+</div>
 <%# Feedback List Loop %>
 <% feedbacklist.forEach(function(item) { %> 
-  <div class="feedback-masthead">
-    <h1><%= item.name %></h1>
-  </div>
-
-  <section class="feedback-body-content">
-    
-    <div class="feedback-section-label"><%= item.title %></div>
-    <div class="feedback-body-text">
-      <p><%= item.message %></p>
+  <section class="feedback-two-column">
+    <div class="feedback-section-label"><%= item.name %></div>
+    <div class="feedback-columns">
+      <div class="feedback-column-text">
+        <p><%= item.title %></p>
+      </div>
+      <div class="feedback-column-text">
+        <p><%= item.message %></p>
+      </div>
     </div>
   </section>
 <%  }); %>
 <%# Feedback List Loop %>
-
-
-
 
 
   <div class="feedback-footer">
