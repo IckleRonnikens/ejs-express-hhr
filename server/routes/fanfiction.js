@@ -20,7 +20,8 @@ module.exports = (param) => {
 
         const writerslist = await writersService.getList();
         const allStories = await writersService.getAllStories();
-        return res.render('fanfiction/writers', {page: 'All Writers', writerslist, stories: allStories});
+        const allStorieslinks = await writersService.getAllStorieslinks();
+        return res.render('fanfiction/writers', {page: 'All Writers', writerslist, stories: allStories, storieslinks: allStorieslinks});
 
     });
 
@@ -31,6 +32,7 @@ module.exports = (param) => {
             const promises = []; 
             promises.push(writersService.getWriters(req.params.name));  
             promises.push(writersService.getStoriesForWriters(req.params.name));  
+            promises.push(writersService.getStorieslinksForWriters(req.params.name));  
             const result = await Promise.all(promises)  
 
             if(!result[0]){
@@ -41,6 +43,7 @@ module.exports = (param) => {
                 page: req.params.name, 
                 writers: result[0],
                 stories: result[1],
+                storieslinks: result[2],
             });
         }catch (err){
             return next(err);

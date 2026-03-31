@@ -13,16 +13,19 @@
 
         <%# Artists List Loop %>
         <% artistslist.forEach(function(artists) { %>
-        <div class="fanart-grid-image">
-        
+        <div class="fanart-image-container">
+          <div class="fanart-grid-image">
+            <a href="/fanart/artists/<%= artists.shortname %>">
+              <img class="w-100 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.shortname %>">
+            </a>
+
+            <div class="fanart-image-overlay">
+              <div class="fanart-image-text">
                 <a href="/fanart/artists/<%= artists.shortname %>">
-                  <img class="w-100 " src="/images/artists/<%= artists.shortname %>.jpg" alt="Photo of <%= artists.shortname %>">
+                  <%= artists.name %></div>
                 </a>
-
-
-                <h3><a href="/artists/<%= artists.shortname %>"><%= artists.name %></a></h3>
-                <a href="/fanart/artists/<%= artists.shortname %>"><button class="btn btn-light">View Profile</button></a>
-        
+            </div>
+          </div>
         </div>
         <%  }); %>
         <%# / Artists List Loop %>

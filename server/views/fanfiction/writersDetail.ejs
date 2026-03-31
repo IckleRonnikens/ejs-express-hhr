@@ -56,15 +56,42 @@
     </div>
   </section>
 
+  
+<div class="fanfiction-masthead">
+<h1>Stories</h1>
+<time>Updated - As of March 2026</time>
+</div>
+
   <section class="fanfiction-image-grid">
+
 <%# Stories %>
 <% if (stories.reverse().length > 0) { %>
 <%for (i=0; i < stories.length; i ++){ %>
-    <div class="fanfiction-grid-image">
-      <a href="/images/stories/<%= writers.shortname %>/<%= stories[i] %>.jpg" title="<%= stories[i] %>">
-      <img src="/images/stories/<%= writers.shortname %>/<%= stories[i] %>.jpg" alt="<%= stories[i] %>">
-      </a>
-    </div>
+
+<%# Storieslinks %>
+<% if (storieslinks.reverse().length > 0) { %>
+<%for (i=0; i < storieslinks.length; i ++){ %>
+<div class="fanfiction-image-container">
+  <div class="fanfiction-grid-image">
+    <a href="/images/stories/<%= writers.shortname %>/<%= stories[i] %>.jpg" title="<%= stories[i] %>">
+    <img src="/images/stories/<%= writers.shortname %>/<%= stories[i] %>.jpg" alt="<%= stories[i] %>">
+    </a>
+
+      <div class="fanfiction-image-overlay">
+        <div class="fanfiction-image-text">
+
+            <a href="<%= storieslinks[i] %>" target="_blank" title="<%= stories[i] %>">
+            <%= stories[i] %>
+            </a>
+
+        </div>
+      </div>
+  </div>
+</div>
+
+<%}%>
+<% }  %>
+<%# /Storieslinks %>
 <%}%>
 <% }  %>
 <%# /Stories %>

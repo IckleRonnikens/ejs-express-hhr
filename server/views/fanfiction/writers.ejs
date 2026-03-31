@@ -13,16 +13,20 @@
 
         <%# writers List Loop %>
         <% writerslist.forEach(function(writers) { %>
-        <div class="fanfiction-grid-image">
-        
+        <div class="fanfiction-image-container">
+          <div class="fanfiction-grid-image">
+            <a href="/fanfiction/writers/<%= writers.shortname %>">
+              <img class="w-100 " src="/images/writers/<%= writers.shortname %>.jpg" alt="Photo of <%= writers.shortname %>">
+            </a>
+
+            <div class="fanfiction-image-overlay">
+              <div class="fanfiction-image-text">
                 <a href="/fanfiction/writers/<%= writers.shortname %>">
-                  <img class="w-100 " src="/images/writers/<%= writers.shortname %>.jpg" alt="Photo of <%= writers.shortname %>">
+                  <%= writers.name %></div>
                 </a>
+            </div>
 
-
-                <h3><a href="/writers/<%= writers.shortname %>"><%= writers.name %></a></h3>
-                <a href="/fanfiction/writers/<%= writers.shortname %>"><button class="btn btn-light">View Profile</button></a>
-        
+          </div>
         </div>
         <%  }); %>
         <%# / writers List Loop %>

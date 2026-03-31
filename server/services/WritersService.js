@@ -26,21 +26,51 @@ class WritersService {
 
 
         return data.map((writers) => {
-            return {name:writers.name, shortname: writers.shortname, aurl:writers.aurl};
+            return {
+                name:writers.name, 
+                shortname: writers.shortname, 
+                aurl:writers.aurl, 
+                furl:writers.furl, 
+                summary: writers.summary, 
+                introduction:writers.introduction,
+                quote:writers.quote,
+                quoteby:writers.quoteby,
+                suggestions:writers.suggestions
+            };
         });
     }
 
     async getList(){
         const data = await this.getData();
         return data.map((writers) => {
-            return {name:writers.name, shortname: writers.shortname, summary: writers.summary, aurl:writers.aurl};
+            return {
+                name:writers.name, 
+                shortname: writers.shortname, 
+                aurl:writers.aurl, 
+                furl:writers.furl, 
+                summary: writers.summary, 
+                introduction:writers.introduction,
+                quote:writers.quote,
+                quoteby:writers.quoteby,
+                suggestions:writers.suggestions
+            };
         });
     }
 
     async getListShort(){
         const data = await this.getData();
         return data.map((writers) => {
-            return {name:writers.name, shortname: writers.shortname, summary: writers.summary, aurl:writers.aurl};
+            return {
+                name:writers.name, 
+                shortname: writers.shortname, 
+                aurl:writers.aurl, 
+                furl:writers.furl, 
+                summary: writers.summary, 
+                introduction:writers.introduction,
+                quote:writers.quote,
+                quoteby:writers.quoteby,
+                suggestions:writers.suggestions
+            };
         });
     }
 
@@ -52,11 +82,15 @@ class WritersService {
         if(!writers) return null;
         
         return {
-            name: writers.name,
-            shortname: writers.shortname,
-            description: writers.description, 
-            summary: writers.summary, 
-            aurl:writers.aurl
+                name:writers.name, 
+                shortname: writers.shortname, 
+                aurl:writers.aurl, 
+                furl:writers.furl, 
+                summary: writers.summary, 
+                introduction:writers.introduction,
+                quote:writers.quote,
+                quoteby:writers.quoteby,
+                suggestions:writers.suggestions
         }
     }
 
@@ -85,5 +119,29 @@ class WritersService {
         });
         return allStories;
     }
+
+
+    async getStorieslinksForWriters(shortname){
+        const data = await this.getData();
+        const writers = data.find((writers) => {
+            return writers.shortname === shortname;
+        });
+
+        if(!writers || !writers.storieslinks) return null; 
+        return writers.storieslinks; 
+    }
+
+async getAllStorieslinks() {
+    const data = await this.getData();
+
+    const allStorieslinks = [];
+
+    data.forEach(w => {
+        allStorieslinks.push(...(w.storieslinks || []));
+    });
+
+    return allStorieslinks;
+}
+
 }
 module.exports = WritersService;

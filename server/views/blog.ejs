@@ -42,10 +42,18 @@
   <section class="blog-image-grid">
   <%# Blogs List Loop %>
   <% bloglist.reverse().splice(1).forEach(function(blog) { %>
+    <div class="blog-image-container">
     <div class="blog-grid-image">
         <a href="/blog/<%= blog.shortname %>">
           <img class="w-100" src="<%= blog.image %>" alt="<%= blog.shortname %>">
         </a>
+  <div class="blog-image-overlay">
+    <div class="blog-image-text">
+        <a href="/blog/<%= blog.shortname %>">
+      <%= blog.title %></div>
+        </a>
+  </div>
+    </div>
     </div>
   <%  }); %>
   <%# / Blogs List Loop %>
