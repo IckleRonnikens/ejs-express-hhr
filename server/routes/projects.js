@@ -22,7 +22,7 @@ module.exports = (param) => {
                 return next();
             }
 
-            return res.render('projectsDetail', {
+            return res.render('projects/projectsDetail', {
                 page: req.params.name, 
                 projectsDetail: result[0],
             });

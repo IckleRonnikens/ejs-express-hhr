@@ -13,8 +13,8 @@ module.exports = (param) => {
 
 
     router.get('/ps', async(req, res, next) => {
-        const pslist = await quotesService.getList();
-        return res.render('quotes/ps', {page: "Philospher's Stone", pslist });
+        const quoteslist = await quotesService.getList();
+        return res.render('quotes/ps', {page: "Philospher's Stone", quoteslist });
     });
  
 
