@@ -23,6 +23,7 @@ const NsfwService = require('./services/NsfwService');
 const PubliclistService = require('./services/PubliclistService'); 
 const ArchivesService = require('./services/ArchivesService'); 
 const WritersService = require('./services/WritersService');  
+const GalleryService = require('./services/GalleryService');  
 
 
 
@@ -46,6 +47,7 @@ const nsfwService = new NsfwService(config.data.nsfw);
 const publiclistService = new PubliclistService(config.data.publiclist);  
 const archivesService = new ArchivesService(config.data.archives);  
 const writersService = new WritersService(config.data.writers);  
+const galleryService = new GalleryService(config.data.gallery);  
 
 
 
@@ -79,7 +81,8 @@ app.use('/', routes({
     nsfwService: nsfwService,
     publiclistService: publiclistService,
     archivesService: archivesService,
-    writersService: writersService
+    writersService: writersService,
+    galleryService: galleryService
 }));
 
 

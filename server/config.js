@@ -5,6 +5,7 @@ module.exports = {
         data: {
             about: path.join(__dirname, 'data/about.json'),
             blog: path.join(__dirname, 'data/blog.json'),
+            gallery: path.join(__dirname, 'data/gallery.json'),
             credits: path.join(__dirname, 'data/credits.json'),
             privacy: path.join(__dirname, 'data/privacy.json'),
             feedback: path.join(__dirname, 'data/feedback.json'),
@@ -26,6 +27,7 @@ module.exports = {
         data: {
             about: path.join(__dirname, 'data/about.json'),
             blog: path.join(__dirname, 'data/blog.json'),
+            gallery: path.join(__dirname, 'data/gallery.json'),
             credits: path.join(__dirname, 'data/credits.json'),
             quotes: path.join(__dirname, 'data/quotes.json'),
             privacy: path.join(__dirname, 'data/privacy.json'),

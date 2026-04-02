@@ -9,7 +9,7 @@ const feedbackRoutes = require('./feedback');
 const projectsRoutes = require('./projects');
 const privacyRoutes = require('./privacy');
 const quotesRoutes = require('./quotes');
-
+const galleryRoutes = require('./gallery');
 
 
 const router = express.Router();
@@ -37,7 +37,7 @@ module.exports = (param) => {
     router.use('/projects', projectsRoutes(param));
     router.use('/privacy', privacyRoutes(param));
     router.use('/quotes', quotesRoutes(param));
-
+    router.use('/gallery', galleryRoutes(param));
 
 
     return router;
