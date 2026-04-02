@@ -1,7 +1,7 @@
 const express = require('express'); 
 const path = require('path');
 const bodyParser = require('body-parser');
-
+const items = require("./data/blog.json")
 
 const createErrors = require('http-errors');
 const routes = require('./routes/routes');
@@ -85,6 +85,17 @@ app.use('/', routes({
     galleryService: galleryService
 }));
 
+// Search Route
+app.get("/search", (req, res) => {
+  const query = req.query.q?.toLowerCase() || ""
+
+  const results = items.filter(item =>
+    item.title.toLowerCase().includes(query) ||
+    item.description.toLowerCase().includes(query)
+  )
+
+  res.render("results", { query, results })
+})
 
 
 app.use((req, res, next) => {

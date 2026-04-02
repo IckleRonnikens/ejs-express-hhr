@@ -1,13 +1,25 @@
-<%#Import the header%>
-<%- include('templates/header'); -%>
-<%#/Import the header%>
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+</head>
+<body>
+  <h1>Results for "<%= query %>"</h1>
 
+  <% if (results.length === 0) { %>
+    <p>No results found.</p>
+  <% } else { %>
+    <ul>
+      <% results.forEach(item => { %>
+        <li>
+          <strong><%= item.title %></strong><br>
+          <%= item.description %>
+        </li>
+      <% }) %>
+    </ul>
+  <% } %>
 
-
-
-
-
-<%#Import the footer%>
-<%- include('templates/footer'); -%>
-<%#/Import the footer%>
+  <a href="/">Back</a>
+</body>
+</html>
